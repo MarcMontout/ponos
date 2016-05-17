@@ -2262,6 +2262,10 @@ fieldset[disabled] .btn-warning.active {
 .open .dropdown-toggle.btn-danger {
   background-image: none;
 }
+.rectangle{
+    border : solid white 2px;
+}
+
 .btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
