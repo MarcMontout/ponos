@@ -4,6 +4,18 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+@(flash: String, users: List[User])
+
+@import helper._
+
+@main("EPVN") {
+
+	@if(flash!=null) {
+		<div class="alert alert-block alert-info">
+			@flash
+		</div>
+	}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -545,24 +557,24 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		  </div>
 		  <div class="modal-body modal-spa">
-								<div class="login-grids">
-									<div class="login">
-										<div class="login-right">
-											<form>
-												<h3>Connectez-vous avec votre compte </h3>
-												<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d'utilisateur;}" required="">	
-												<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-												<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
-												<div class="single-bottom">
-													<input type="checkbox"  id="brand" value="">
-													<label for="brand"><span></span>Se souvenir de moi.</label>
-												</div>
-												<input type="submit" value="Connexion" >
-											</form>
-										</div>
-										<div class="clearfix"></div>								
-									</div>
-								</div>
+				<div class="login-grids">
+					<div class="login">
+						<div class="login-right">
+						<form>
+						<h3>Connectez-vous avec votre compte </h3>
+						<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d'utilisateur;}" required="">	
+						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+						<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
+							<div class="single-bottom">
+								<input type="checkbox"  id="brand" value="">
+								<label for="brand"><span></span>Se souvenir de moi.</label>
+						</div>
+						<input type="submit" value="Connexion" >
+						</form>
+						</div>
+						<div class="clearfix"></div>								
+					</div>
+				</div>
 		  </div>
 
 		</div>
@@ -590,3 +602,5 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for bootstrap working -->
 </body>
 </html>
+
+}
