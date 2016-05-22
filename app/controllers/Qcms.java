@@ -20,26 +20,26 @@ import java.lang.Long;
 
 public class Projects extends Controller {
     
-	public static Form<Project> projectForm = Form.form(Project.class);
+	public static Form<Qcm> projectForm = Form.form(Qcm.class);
 
     public static Result listAll() {
-        return ok(views.html.projects.render(Project.all()));
+        return ok(views.html.projects.render(Qcm.all()));
     }
 
     public static Result show(long id) {
-        return ok(views.html.project.render(Project.findById(id)))  ;
+        return ok(views.html.project.render(Qcm.findById(id)))  ;
     }
 
     public static Result newQcm() {
 		return ok(views.html.ajoutProjet.render(projectForm));
 	}
     public static Result addQcm() {
-        Form<Project> filledForm = projectForm.bindFromRequest();
+        Form<Qcm> filledForm = projectForm.bindFromRequest();
 		if(filledForm.hasErrors()) {
 			flash("message", "Echec de l'ajout du projet.");
 			return redirect(routes.Application.index());
 		} else {
-		    Project.create(filledForm.get());
+		    Qcm.create(filledForm.get());
 		    flash("message", "Projet cree avec succes.");
 		    return redirect(routes.Application.index());  
 		}

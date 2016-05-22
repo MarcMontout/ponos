@@ -16,7 +16,7 @@ import controllers.Session;
 import javax.persistence.*;
 
 @Entity
-public class Project extends Model {	
+public class QCm extends Model {	
 
 	@Id
 	public int id;

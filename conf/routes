@@ -22,8 +22,8 @@ GET		/logout							controllers.Session.logout()
 GET     /validate/:id_prj				controllers.Application.confirmDon(id_prj:Long)
 POST     /validate						controllers.Application.validate()
 
-GET 	/qcms							controllers.Qcms.listAll()
-GET     /qcms/$id<[0-9]+>				controllers.Qcms.show(id:Long)	
+GET 	/sentrainer							controllers.Qcms.listAll()
+GET     /sentrainer/$id<[0-9]+>				controllers.Qcms.show(id:Long)	
 	
 GET		/ajoutQcm						controllers.Qcm.newProject()
 POST	/ajoutQcm						controllers.Qcm.addProject()
