@@ -1,22 +1,17 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-@(flash: String, users: List[User])
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
 
-@import helper._
-
-@main("EPVN") {
-
-	@if(flash!=null) {
-		<div class="alert alert-block alert-info">
-			@flash
-		</div>
-	}
-
-<!DOCTYPE html>
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Ponos") {
+	
+	<!DOCTYPE html>
 <html>
 <head>
 <title>PONOS ISEP</title>
@@ -35,7 +30,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
-   <script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
 <!-- dropdown -->
 <script src="js/jquery.easydropdown.js"></script>
@@ -529,7 +524,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<li>28, rue Notre-Dame des Champs</li>
 				<li>75006</li>
 				<li>PARIS</li>
-				<li>Email : <a href="mailto:info@example.com">contact@ponosisep.com</a></li>
+				<li>Email : </a></li>
 			</ul>
 		</div>
 		<div class="col-md-4 social-grid wow fadeInLeft animated" data-wow-delay=".5s">
@@ -602,5 +597,5 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for bootstrap working -->
 </body>
 </html>
-
+    
 }
