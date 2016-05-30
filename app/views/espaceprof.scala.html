@@ -1,0 +1,194 @@
+@(message: String)
+
+@main("Espace professeur") {
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Espace Professeur</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="Vide" />
+<meta name="keywords" content="Eduma Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/hover_pack.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- dropdown -->
+<script src="js/hover_pack.js"></script>
+<!-- //dropdown -->
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+
+</head>
+<body>
+<!-- page-head -->
+    <div class="page-head">
+			<div class="header-nav">
+				<div class="logo wow fadeInUp animated" data-wow-delay=".5s">
+					<h1>
+						<a class="link link--kumya" href="index.html"><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
+					</h1>
+				</div>
+				<div class="top-nav wow fadeInUp animated" data-wow-delay=".5s">										 
+						<label class="mobile_menu" for="mobile_menu">
+						<span>Menu</span>
+						</label>
+						<input id="mobile_menu" type="checkbox">
+					   <ul class="nav">
+						 <li><a href="index.html">Accueil</a></li>
+						 <li><a class="active" href="#">Mon Espace</a></li>
+						 <li><a href="sentrainer.html">S'entraîner</a></li>
+						 <li><a href="http://educ.isep.fr">Moodle</a></li>
+                           <li><a href="http://www.isep.fr/parcours/">Parcours</a></li>
+						 <li><a href="#" data-toggle="modal" data-target="#myModal">Se connecter</a></li>
+					  </ul>
+				 </div>
+				<div class="clearfix"></div>
+			</div>
+    </div>
+   
+<!--Corps de page-->
+
+<div class="container" style="margin: 40px">
+	<button type="button" class="btn btn-primary btn-lg">Ajouter</button>
+	<button type="button" class="btn btn-primary btn-lg">Modifier</button>
+	<button type="button" class="btn btn-primary btn-lg">Supprimer</button>
+	</br>
+	<div>
+		<label for="form_control_1">Question</label>
+		<input type="text" class="form-control" id="form_control_1" placeholder="Entrez votre question">
+		<label for="form_control_1">Choix de réponse</label>
+		<input type="text" class="form-control" id="form_control_1" placeholder="Option 1">
+		<input type="text" class="form-control" id="form_control_1" placeholder="Option 2">
+		<input type="text" class="form-control" id="form_control_1" placeholder="Option 3">
+		<input type="text" class="form-control" id="form_control_1" placeholder="Option 4">
+	</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
+			<h3>A propos</h3>
+			<p>Ponos ISEP est un projet développé avec amour par l'équipe du groupe rose de l'ISEP.</p>
+		</div>
+		<div class="col-md-2 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
+			<h3>Navigation</h3>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="about.html">Mon espace</a></li>
+				<li><a href="courses.html">S'entraîner</a></li>
+				<li><a href="shortcodes.html">Moodle</a></li>						 
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay=".5s">
+			<h3>Contactez nous</h3>
+			<h2>PONOS-ISEP</h2>
+			<ul>
+				<li>28, rue Notre-Dame des Champs</li>
+				<li>75006</li>
+				<li>PARIS</li>
+				<li>Email : <a href="mailto:info@example.com">contact@ponosisep.com</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4 social-grid wow fadeInLeft animated" data-wow-delay=".5s">
+			<h3>Contactez nous sur les réseaux sociaux</h3>
+			<ul>
+				<li><a class="fb1" href="#"></a></li>
+				<li><a class="fb2" href="#"></a></li>
+				<li><a class="fb3" href="#"></a></li>
+				<li><a class="fb4" href="#"></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+		<div class="copy-right">
+			<p> &copy; 2016 PONOS ISEP. Tous droit réservés | L'équipe du groupe rose</p>
+		</div>
+	</div>
+<!-- //footer-->
+<!-- Modal -->
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  </div>
+		  <div class="modal-body modal-spa">
+								<div class="login-grids">
+									<div class="login">
+										<div class="login-right">
+											<form>
+												<h3>Connectez-vous avec votre compte </h3>
+												<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d'utilisateur;}" required="">	
+												<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+												<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
+												<div class="single-bottom">
+													<input type="checkbox"  id="brand" value="">
+													<label for="brand"><span></span>Se souvenir de moi.</label>
+												</div>
+												<input type="submit" value="Connexion" >
+											</form>
+										</div>
+										<div class="clearfix"></div>								
+									</div>
+								</div>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
+    
+}
