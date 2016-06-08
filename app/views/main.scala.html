@@ -66,7 +66,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                         <a class="link link--kumya" href="index.html"><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
                     </h1>
                 </div>
-                <<div class="top-nav wow fadeInUp animated" data-wow-delay=".5s">                                        
+                <div class="top-nav wow fadeInUp animated" data-wow-delay=".5s">                                        
                         <label class="mobile_menu" for="mobile_menu">
                         <span>Menu</span>
                         </label>
@@ -87,8 +87,49 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         @* And here's where we render the `Html` object containing
          * the page content. *@
         @content
+
 </body>
 
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
+            <h3>A propos</h3>
+            <p>Ponos ISEP est un projet développé avec amour par l'équipe du groupe rose de l'ISEP.</p>
+        </div>
+        <div class="col-md-2 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a class="active" href="@routes.Application.index()">Accueil</a></li>
+                <li><a href="@routes.Application.monespace()">Mon Espace</a></li>
+                <li><a href="@routes.Application.entrainer()">S'entraîner</a></li>
+                <li><a href="http://educ.isep.fr">Moodle</a></li>                        
+            </ul>
+        </div>
+        <div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay=".5s">
+            <h3>Contactez nous</h3>
+            <h2>PONOS-ISEP</h2>
+            <ul>
+                <li>28, rue Notre-Dame des Champs</li>
+                <li>75006</li>
+                <li>PARIS</li>
+                <li>Email : <a href="mailto:info&#64;example.com">contact&#64;ponosisep.com</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 social-grid wow fadeInLeft animated" data-wow-delay=".5s">
+            <h3>Contactez nous sur les réseaux sociaux</h3>
+            <ul>
+                <li><a class="fb1" href="#"></a></li>
+                <li><a class="fb2" href="#"></a></li>
+                <li><a class="fb3" href="#"></a></li>
+                <li><a class="fb4" href="#"></a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="copy-right">
+            <p> &copy; 2016 PONOS ISEP. Tous droit réservés | L'équipe du groupe rose</p>
+        </div>
+    </div>
+<!-- //footer-->
 
 
 </html>

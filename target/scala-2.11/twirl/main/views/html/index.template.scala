@@ -41,29 +41,6 @@ Seq[Any](format.raw/*1.19*/("""
  <!--<div data-vide-bg="video/training">-->
     <div class="center-container">
 		<div class="ban-shade">
-			<div class="header-nav">
-				<div class="logo wow fadeInUp animated" data-wow-delay=".5s">
-					<h1>
-						<a class="link link--kumya" href=""""),_display_(/*16.42*/routes/*16.48*/.Application.index()),format.raw/*16.68*/(""""><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
-					</h1>
-				</div>
-				<div class="top-nav wow fadeInUp animated" data-wow-delay=".5s">										 
-						<label class="mobile_menu" for="mobile_menu">
-						<span>Menu</span>
-						</label>
-						<input id="mobile_menu" type="checkbox">
-					   <ul class="nav">
-						 <li><a class="active" href=""""),_display_(/*25.37*/routes/*25.43*/.Application.index()),format.raw/*25.63*/("""">Accueil</a></li>
-						 <li><a href=""""),_display_(/*26.22*/routes/*26.28*/.Application.monespace()),format.raw/*26.52*/("""">Mon Espace</a></li>
-						 <li><a href=""""),_display_(/*27.22*/routes/*27.28*/.Application.entrainer()),format.raw/*27.52*/("""">S'entraîner</a></li>
-						 <li><a href="http://educ.isep.fr">Moodle</a></li>
-                           <li><a href="http://www.isep.fr/parcours/">Parcours</a></li>
-						 <li class="rectangle"><a href="#" data-toggle="modal" data-target="#myModal">Se connecter</a></li>
-					  </ul>
-				 </div>
-				<div class="clearfix"></div>
-				
-			</div>
             <div class="socials">
                 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4dd797b06396480a"></script>
             </div>
@@ -282,49 +259,6 @@ Seq[Any](format.raw/*1.19*/("""
 		</div>
 	</div>
 </div>
-<!--//footer-top-->
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
-			<h3>A propos</h3>
-			<p>Ponos ISEP est un projet développé avec amour par l'équipe du groupe rose de l'ISEP.</p>
-		</div>
-		<div class="col-md-2 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
-			<h3>Navigation</h3>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="about.html">Mon espace</a></li>
-				<li><a href="courses.html">S'entraîner</a></li>
-				<li><a href="shortcodes.html">Moodle</a></li>						 
-			</ul>
-		</div>
-		<div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay=".5s">
-			<h3>Contactez nous</h3>
-			<h2>PONOS-ISEP</h2>
-			<ul>
-				<li>28, rue Notre-Dame des Champs</li>
-				<li>75006</li>
-				<li>PARIS</li>
-				<li>Email : </a></li>
-			</ul>
-		</div>
-		<div class="col-md-4 social-grid wow fadeInLeft animated" data-wow-delay=".5s">
-			<h3>Contactez nous sur les réseaux sociaux</h3>
-			<ul>
-				<li><a class="fb1" href="#"></a></li>
-				<li><a class="fb2" href="#"></a></li>
-				<li><a class="fb3" href="#"></a></li>
-				<li><a class="fb4" href="#"></a></li>
-			</ul>
-		</div>
-		<div class="clearfix"></div>
-		<div class="copy-right">
-			<p> &copy; 2016 PONOS ISEP. Tous droit réservés | L'équipe du groupe rose</p>
-		</div>
-	</div>
-</div>
-<!-- //footer-->
 <!-- Modal -->
 
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -339,8 +273,8 @@ Seq[Any](format.raw/*1.19*/("""
 						<div class="login-right">
 						<form>
 						<h3>Connectez-vous avec votre compte </h3>
-						<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*311.109*/("""{"""),format.raw/*311.110*/("""this.value = 'Nom d'utilisateur;"""),format.raw/*311.142*/("""}"""),format.raw/*311.143*/("""" required="">	
-						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*312.104*/("""{"""),format.raw/*312.105*/("""this.value = 'Password';"""),format.raw/*312.129*/("""}"""),format.raw/*312.130*/("""" required="">	
+						<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*245.109*/("""{"""),format.raw/*245.110*/("""this.value = 'Nom d'utilisateur;"""),format.raw/*245.142*/("""}"""),format.raw/*245.143*/("""" required="">	
+						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*246.104*/("""{"""),format.raw/*246.105*/("""this.value = 'Password';"""),format.raw/*246.129*/("""}"""),format.raw/*246.130*/("""" required="">	
 						<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
 							<div class="single-bottom">
 								<input type="checkbox"  id="brand" value="">
@@ -360,17 +294,17 @@ Seq[Any](format.raw/*1.19*/("""
 
 <!-- smooth scrolling -->
 	<script type="text/javascript">
-		$(document).ready(function() """),format.raw/*332.32*/("""{"""),format.raw/*332.33*/("""
-		"""),format.raw/*333.3*/("""/*
-			var defaults = """),format.raw/*334.19*/("""{"""),format.raw/*334.20*/("""
-			"""),format.raw/*335.4*/("""containerID: 'toTop', // fading element id
+		$(document).ready(function() """),format.raw/*266.32*/("""{"""),format.raw/*266.33*/("""
+		"""),format.raw/*267.3*/("""/*
+			var defaults = """),format.raw/*268.19*/("""{"""),format.raw/*268.20*/("""
+			"""),format.raw/*269.4*/("""containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
 			scrollSpeed: 1200,
 			easingType: 'linear' 
-			"""),format.raw/*339.4*/("""}"""),format.raw/*339.5*/(""";
+			"""),format.raw/*273.4*/("""}"""),format.raw/*273.5*/(""";
 		*/								
-		$().UItoTop("""),format.raw/*341.15*/("""{"""),format.raw/*341.16*/(""" """),format.raw/*341.17*/("""easingType: 'easeOutQuart' """),format.raw/*341.44*/("""}"""),format.raw/*341.45*/(""");
-		"""),format.raw/*342.3*/("""}"""),format.raw/*342.4*/(""");
+		$().UItoTop("""),format.raw/*275.15*/("""{"""),format.raw/*275.16*/(""" """),format.raw/*275.17*/("""easingType: 'easeOutQuart' """),format.raw/*275.44*/("""}"""),format.raw/*275.45*/(""");
+		"""),format.raw/*276.3*/("""}"""),format.raw/*276.4*/(""");
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
@@ -380,7 +314,7 @@ Seq[Any](format.raw/*1.19*/("""
 </body>
 </html>
     
-""")))}),format.raw/*352.2*/("""
+""")))}),format.raw/*286.2*/("""
 """))
       }
     }
@@ -401,11 +335,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 16:43:01 CEST 2016
+                  DATE: Wed Jun 08 16:57:36 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: 77dc8247d594af333c059b1eaffb58ad15dbaba0
-                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1065->104|1079->110|1132->143|1413->397|1428->403|1469->423|1860->787|1875->793|1916->813|1983->853|1998->859|2043->883|2113->926|2128->932|2173->956|14053->12806|14084->12807|14146->12839|14177->12840|14326->12959|14357->12960|14411->12984|14442->12985|15088->13602|15118->13603|15149->13606|15199->13627|15229->13628|15261->13632|15444->13787|15473->13788|15531->13817|15561->13818|15591->13819|15647->13846|15677->13847|15710->13852|15739->13853|16044->14127
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|47->16|47->16|47->16|56->25|56->25|56->25|57->26|57->26|57->26|58->27|58->27|58->27|342->311|342->311|342->311|342->311|343->312|343->312|343->312|343->312|363->332|363->332|364->333|365->334|365->334|366->335|370->339|370->339|372->341|372->341|372->341|372->341|372->341|373->342|373->342|383->352
+                  HASH: 20d5c52bae7ea963b884766ced17d784fa046524
+                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1065->104|1079->110|1132->143|11378->10359|11409->10360|11471->10392|11502->10393|11651->10512|11682->10513|11736->10537|11767->10538|12413->11155|12443->11156|12474->11159|12524->11180|12554->11181|12586->11185|12769->11340|12798->11341|12856->11370|12886->11371|12916->11372|12972->11399|13002->11400|13035->11405|13064->11406|13369->11680
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|276->245|276->245|276->245|276->245|277->246|277->246|277->246|277->246|297->266|297->266|298->267|299->268|299->268|300->269|304->273|304->273|306->275|306->275|306->275|306->275|306->275|307->276|307->276|317->286
                   -- GENERATED --
               */
           
