@@ -17,7 +17,19 @@ public class Application extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Your new application is ready."));
+        return ok(views.html.index.render("Ponos"));
+    }
+
+    public Result monespace() {
+        return ok(views.html.monespace.render("Mon espace"));
+    }
+
+    public Result espaceprof() {
+        return ok(views.html.espaceprof.render("Espace professeur"));
+    }
+
+    public Result entrainer() {
+        return ok(views.html.sentrainer.render("Entrainer"));
     }
 
 }
