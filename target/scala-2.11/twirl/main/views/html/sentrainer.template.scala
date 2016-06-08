@@ -295,61 +295,10 @@ Seq[Any](format.raw/*1.19*/("""
 	</div>
 <!-- courses -->
 
-<!-- Modal -->
-
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		  </div>
-		  <div class="modal-body modal-spa">
-								<div class="login-grids">
-									<div class="login">
-										<div class="login-right">
-											<form>
-												<h3>Connectez-vous avec votre compte </h3>
-												<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*281.115*/("""{"""),format.raw/*281.116*/("""this.value = 'Nom d'utilisateur;"""),format.raw/*281.148*/("""}"""),format.raw/*281.149*/("""" required="">	
-												<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*282.110*/("""{"""),format.raw/*282.111*/("""this.value = 'Password';"""),format.raw/*282.135*/("""}"""),format.raw/*282.136*/("""" required="">	
-												<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
-												<div class="single-bottom">
-													<input type="checkbox"  id="brand" value="">
-													<label for="brand"><span></span>Se souvenir de moi.</label>
-												</div>
-												<input type="submit" value="Connexion" >
-											</form>
-										</div>
-										<div class="clearfix"></div>								
-									</div>
-								</div>
-		  </div>
-
-		</div>
-	  </div>
-	</div>
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() """),format.raw/*301.32*/("""{"""),format.raw/*301.33*/("""
-		"""),format.raw/*302.3*/("""/*
-			var defaults = """),format.raw/*303.19*/("""{"""),format.raw/*303.20*/("""
-			"""),format.raw/*304.4*/("""containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			"""),format.raw/*308.4*/("""}"""),format.raw/*308.5*/(""";
-		*/								
-		$().UItoTop("""),format.raw/*310.15*/("""{"""),format.raw/*310.16*/(""" """),format.raw/*310.17*/("""easingType: 'easeOutQuart' """),format.raw/*310.44*/("""}"""),format.raw/*310.45*/(""");
-		"""),format.raw/*311.3*/("""}"""),format.raw/*311.4*/(""");
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-<!-- for bootstrap working -->
-		<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
 </body>
 </html>
     
-""")))}),format.raw/*321.2*/("""
+""")))}),format.raw/*270.2*/("""
 """))
       }
     }
@@ -370,11 +319,11 @@ Seq[Any](format.raw/*1.19*/("""
 object sentrainer extends sentrainer_Scope0.sentrainer
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 18:13:38 CEST 2016
+                  DATE: Wed Jun 08 18:25:19 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/sentrainer.scala.html
-                  HASH: 85aeaf48cf9b27fe57d80572cfd66b41e2eccc99
-                  MATRIX: 755->1|867->18|897->23|922->40|961->42|996->51|9196->8223|9212->8229|9263->8258|10741->9706|10772->9707|10834->9739|10865->9740|11021->9866|11052->9867|11106->9891|11137->9892|11855->10581|11885->10582|11917->10586|11968->10608|11998->10609|12031->10614|12218->10773|12247->10774|12307->10805|12337->10806|12367->10807|12423->10834|12453->10835|12487->10841|12516->10842|12831->11126
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|277->246|277->246|277->246|312->281|312->281|312->281|312->281|313->282|313->282|313->282|313->282|332->301|332->301|333->302|334->303|334->303|335->304|339->308|339->308|341->310|341->310|341->310|341->310|341->310|342->311|342->311|352->321
+                  HASH: 7021ef977a25ca27e8a0cf1c99a8d9d17ea5477e
+                  MATRIX: 755->1|867->18|897->23|922->40|961->42|996->51|9196->8223|9212->8229|9263->8258|10068->9032
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|277->246|277->246|277->246|301->270
                   -- GENERATED --
               */
           

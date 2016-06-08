@@ -19,3 +19,5 @@ GET		/entrainer					controllers.Application.entrainer()
 
 GET		/espaceprof					controllers.Application.espaceprof()
 
+GET		/login						controllers.Application.login()
+

@@ -32,4 +32,8 @@ public class Application extends Controller {
         return ok(views.html.sentrainer.render("Entrainer"));
     }
 
+    public Result login() {
+        return ok(views.html.connexion.render("Connexion"));
+    }
+
 }

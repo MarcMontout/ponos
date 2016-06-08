@@ -5,7 +5,7 @@ import play.twirl.api._
 import play.twirl.api.TemplateMagic._
 
 
-     object monespace_Scope0 {
+     object connexion_Scope0 {
 import models._
 import controllers._
 import play.api.i18n._
@@ -21,7 +21,7 @@ import play.data._
 import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 
-class monespace extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
+class connexion extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
   def apply/*1.2*/(message: String):play.twirl.api.HtmlFormat.Appendable = {
@@ -31,21 +31,18 @@ class monespace extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,F
 
 Seq[Any](format.raw/*1.19*/("""
 
-"""),_display_(/*3.2*/main("Mon espace")/*3.20*/ {_display_(Seq[Any](format.raw/*3.22*/("""
+"""),_display_(/*3.2*/main("Connexion")/*3.19*/ {_display_(Seq[Any](format.raw/*3.21*/("""
 
-"""),format.raw/*5.1*/("""<body>
-<!-- page-head -->
-    
-    
-<!--Corps de page-->
-        <div class="container" style="margin:800px">
+"""),format.raw/*5.1*/("""<!DOCTYPE html>
+<html>
+<body>
 
-        </div>
-
+	    
 
 </body>
+</html>
     
-""")))}),format.raw/*17.2*/("""
+""")))}),format.raw/*14.2*/("""
 """))
       }
     }
@@ -63,14 +60,14 @@ Seq[Any](format.raw/*1.19*/("""
 }
 
 /**/
-object monespace extends monespace_Scope0.monespace
+object connexion extends connexion_Scope0.connexion
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 18:25:19 CEST 2016
-                  SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/monespace.scala.html
-                  HASH: c67281e917204a3d008b1d2044e008b3c4fa67ed
-                  MATRIX: 753->1|865->18|895->23|921->41|960->43|990->47|1174->201
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|48->17
+                  DATE: Wed Jun 08 18:53:38 CEST 2016
+                  SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/connexion.scala.html
+                  HASH: 7a9fac0086578166f2c318ebff089edc3cae6014
+                  MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1088->115
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|45->14
                   -- GENERATED --
               */
           

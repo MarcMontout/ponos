@@ -10,7 +10,7 @@
 <html lang="en">
 
     <head>
-<title>Mon Espace Elève</title>
+<title>Ponos ISEP</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -76,8 +76,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                          <li><a href="@routes.Application.monespace()">Mon Espace</a></li>
                          <li><a href="@routes.Application.entrainer()">S'entraîner</a></li>
                          <li><a href="http://educ.isep.fr">Moodle</a></li>
-                           <li><a href="http://www.isep.fr/parcours/">Parcours</a></li>
-                         <li class="rectangle"><a href="#" data-toggle="modal" data-target="#myModal">Se connecter</a></li>
+                         <li><a href="http://www.isep.fr/parcours/">Parcours</a></li>
+                         <li class="rectangle"><a href="@routes.Application.login()">Se connecter</a></li>
                       </ul>
                  </div>
                 <div class="clearfix"></div>
@@ -130,39 +130,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
         </div>
     </div>
 <!-- //footer-->
-
-<!-- Modal -->
-
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="modal-body modal-spa">
-                                <div class="login-grids">
-                                    <div class="login">
-                                        <div class="login-right">
-                                            <form>
-                                                <h3>Connectez-vous avec votre compte </h3>
-                                                <input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d'utilisateur;}" required="">  
-                                                <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">   
-                                                <h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
-                                                <div class="single-bottom">
-                                                    <input type="checkbox"  id="brand" value="">
-                                                    <label for="brand"><span></span>Se souvenir de moi.</label>
-                                                </div>
-                                                <input type="submit" value="Connexion" >
-                                            </form>
-                                        </div>
-                                        <div class="clearfix"></div>                                
-                                    </div>
-                                </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
 
 <!-- smooth scrolling -->
     <script type="text/javascript">

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Wed Jun 08 16:11:26 CEST 2016
+// @DATE:Wed Jun 08 18:42:54 CEST 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -87,6 +87,12 @@ package controllers {
     def entrainer(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "entrainer")
+    }
+  
+    // @LINE:22
+    def login(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "login")
     }
   
   }

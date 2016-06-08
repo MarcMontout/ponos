@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Wed Jun 08 16:11:26 CEST 2016
+// @DATE:Wed Jun 08 18:42:54 CEST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -119,6 +119,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "entrainer"})
+        }
+      """
+    )
+  
+    // @LINE:22
+    def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.login",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
         }
       """
     )

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Wed Jun 08 16:11:26 CEST 2016
+// @DATE:Wed Jun 08 18:42:54 CEST 2016
 
 package router
 
@@ -58,6 +58,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """monespace""", """controllers.Application.monespace()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """entrainer""", """controllers.Application.entrainer()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """espaceprof""", """controllers.Application.espaceprof()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """login""", """controllers.Application.login()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -184,6 +185,23 @@ class Routes(
     )
   )
 
+  // @LINE:22
+  private[this] lazy val controllers_Application_login7_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("login")))
+  )
+  private[this] lazy val controllers_Application_login7_invoker = createInvoker(
+    Application_2.login(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "login",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """login"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -227,6 +245,12 @@ class Routes(
     case controllers_Application_espaceprof6_route(params) =>
       call { 
         controllers_Application_espaceprof6_invoker.call(Application_2.espaceprof())
+      }
+  
+    // @LINE:22
+    case controllers_Application_login7_route(params) =>
+      call { 
+        controllers_Application_login7_invoker.call(Application_2.login())
       }
   }
 }

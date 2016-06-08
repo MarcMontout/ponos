@@ -32,9 +32,9 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 Seq[Any](format.raw/*1.19*/("""
 
 """),_display_(/*3.2*/main("Ponos")/*3.15*/ {_display_(Seq[Any](format.raw/*3.17*/("""
-	
-"""),format.raw/*5.1*/("""<!DOCTYPE html>
-<html>
+
+
+"""),format.raw/*6.1*/("""<html>
 <body>
 
 <div style="background-image:url("""),_display_(/*9.35*/routes/*9.41*/.Assets.at("images/training.jpg")),format.raw/*9.74*/(""")">
@@ -259,62 +259,11 @@ Seq[Any](format.raw/*1.19*/("""
 		</div>
 	</div>
 </div>
-<!-- Modal -->
 
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		  </div>
-		  <div class="modal-body modal-spa">
-				<div class="login-grids">
-					<div class="login">
-						<div class="login-right">
-						<form>
-						<h3>Connectez-vous avec votre compte </h3>
-						<input type="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*245.109*/("""{"""),format.raw/*245.110*/("""this.value = 'Nom d'utilisateur;"""),format.raw/*245.142*/("""}"""),format.raw/*245.143*/("""" required="">	
-						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') """),format.raw/*246.104*/("""{"""),format.raw/*246.105*/("""this.value = 'Password';"""),format.raw/*246.129*/("""}"""),format.raw/*246.130*/("""" required="">	
-						<h4><a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a> / <a href="https://moncompte.isep.fr/login.php">Nom d'utilisateur oublié</a></h4>
-							<div class="single-bottom">
-								<input type="checkbox"  id="brand" value="">
-								<label for="brand"><span></span>Se souvenir de moi.</label>
-						</div>
-						<input type="submit" value="Connexion" >
-						</form>
-						</div>
-						<div class="clearfix"></div>								
-					</div>
-				</div>
-		  </div>
-
-		</div>
-	  </div>
-	</div>
-
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() """),format.raw/*266.32*/("""{"""),format.raw/*266.33*/("""
-		"""),format.raw/*267.3*/("""/*
-			var defaults = """),format.raw/*268.19*/("""{"""),format.raw/*268.20*/("""
-			"""),format.raw/*269.4*/("""containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			"""),format.raw/*273.4*/("""}"""),format.raw/*273.5*/(""";
-		*/								
-		$().UItoTop("""),format.raw/*275.15*/("""{"""),format.raw/*275.16*/(""" """),format.raw/*275.17*/("""easingType: 'easeOutQuart' """),format.raw/*275.44*/("""}"""),format.raw/*275.45*/(""");
-		"""),format.raw/*276.3*/("""}"""),format.raw/*276.4*/(""");
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-<!-- for bootstrap working -->
-		<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
 </body>
 </html>
     
-""")))}),format.raw/*286.2*/("""
+""")))}),format.raw/*235.2*/("""
 """))
       }
     }
@@ -335,11 +284,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 18:10:25 CEST 2016
+                  DATE: Wed Jun 08 18:25:19 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: 100d2b09a1413add4b5a9843fdbaaea1ecef8cae
-                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1065->104|1079->110|1132->143|9961->8943|9978->8949|10031->8979|10210->9129|10227->9135|10280->9165|10456->9312|10473->9318|10526->9348|10699->9492|10716->9498|10769->9528|10954->9684|10971->9690|11024->9720|11798->10464|11829->10465|11891->10497|11922->10498|12071->10617|12102->10618|12156->10642|12187->10643|12833->11260|12863->11261|12894->11264|12944->11285|12974->11286|13006->11290|13189->11445|13218->11446|13276->11475|13306->11476|13336->11477|13392->11504|13422->11505|13455->11510|13484->11511|13789->11785
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|252->221|252->221|252->221|253->222|253->222|253->222|254->223|254->223|254->223|255->224|255->224|255->224|256->225|256->225|256->225|276->245|276->245|276->245|276->245|277->246|277->246|277->246|277->246|297->266|297->266|298->267|299->268|299->268|300->269|304->273|304->273|306->275|306->275|306->275|306->275|306->275|307->276|307->276|317->286
+                  HASH: d80b78a8660b8247cb9eb6cc8c287c446cc12682
+                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1049->88|1063->94|1116->127|9945->8927|9962->8933|10015->8963|10194->9113|10211->9119|10264->9149|10440->9296|10457->9302|10510->9332|10683->9476|10700->9482|10753->9512|10938->9668|10955->9674|11008->9704|11150->9815
+                  LINES: 27->1|32->1|34->3|34->3|34->3|37->6|40->9|40->9|40->9|252->221|252->221|252->221|253->222|253->222|253->222|254->223|254->223|254->223|255->224|255->224|255->224|256->225|256->225|256->225|266->235
                   -- GENERATED --
               */
           
