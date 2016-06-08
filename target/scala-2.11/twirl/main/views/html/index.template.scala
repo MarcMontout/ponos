@@ -249,11 +249,11 @@ Seq[Any](format.raw/*1.19*/("""
 				</div>
 			</div>
 			<ul id="myTab" class="nav nav-tabs text-center" role="tablist">
-			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src="images/team1.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src="images/team2.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src="images/team3.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src="images/team4.jpg" alt=" " /></a></li>
-                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src="images/team5.jpg" alt=" " /></a></li>
+			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src=""""),_display_(/*221.159*/routes/*221.165*/.Assets.at("images/team1.jpg")),format.raw/*221.195*/("""" alt=" " /></a></li>
+				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src=""""),_display_(/*222.129*/routes/*222.135*/.Assets.at("images/team2.jpg")),format.raw/*222.165*/("""" alt=" " /></a></li>
+				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src=""""),_display_(/*223.126*/routes/*223.132*/.Assets.at("images/team3.jpg")),format.raw/*223.162*/("""" alt=" " /></a></li>
+				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src=""""),_display_(/*224.123*/routes/*224.129*/.Assets.at("images/team4.jpg")),format.raw/*224.159*/("""" alt=" " /></a></li>
+                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src=""""),_display_(/*225.135*/routes/*225.141*/.Assets.at("images/team5.jpg")),format.raw/*225.171*/("""" alt=" " /></a></li>
 				<div class="clearfix"></div>
 			</ul>
 		</div>
@@ -335,11 +335,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 08 16:57:36 CEST 2016
+                  DATE: Wed Jun 08 18:10:25 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: 20d5c52bae7ea963b884766ced17d784fa046524
-                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1065->104|1079->110|1132->143|11378->10359|11409->10360|11471->10392|11502->10393|11651->10512|11682->10513|11736->10537|11767->10538|12413->11155|12443->11156|12474->11159|12524->11180|12554->11181|12586->11185|12769->11340|12798->11341|12856->11370|12886->11371|12916->11372|12972->11399|13002->11400|13035->11405|13064->11406|13369->11680
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|276->245|276->245|276->245|276->245|277->246|277->246|277->246|277->246|297->266|297->266|298->267|299->268|299->268|300->269|304->273|304->273|306->275|306->275|306->275|306->275|306->275|307->276|307->276|317->286
+                  HASH: 100d2b09a1413add4b5a9843fdbaaea1ecef8cae
+                  MATRIX: 745->1|857->18|885->21|906->34|945->36|974->39|1065->104|1079->110|1132->143|9961->8943|9978->8949|10031->8979|10210->9129|10227->9135|10280->9165|10456->9312|10473->9318|10526->9348|10699->9492|10716->9498|10769->9528|10954->9684|10971->9690|11024->9720|11798->10464|11829->10465|11891->10497|11922->10498|12071->10617|12102->10618|12156->10642|12187->10643|12833->11260|12863->11261|12894->11264|12944->11285|12974->11286|13006->11290|13189->11445|13218->11446|13276->11475|13306->11476|13336->11477|13392->11504|13422->11505|13455->11510|13484->11511|13789->11785
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|252->221|252->221|252->221|253->222|253->222|253->222|254->223|254->223|254->223|255->224|255->224|255->224|256->225|256->225|256->225|276->245|276->245|276->245|276->245|277->246|277->246|277->246|277->246|297->266|297->266|298->267|299->268|299->268|300->269|304->273|304->273|306->275|306->275|306->275|306->275|306->275|307->276|307->276|317->286
                   -- GENERATED --
               */
           

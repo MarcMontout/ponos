@@ -650,3 +650,9 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[Expected '"' but
 2016-06-08 17:06:12,998 [INFO] from application in application-akka.actor.default-dispatcher-13 - ApplicationTimer demo: Stopping application at 2016-06-08T15:06:12.998Z after 513s.
 2016-06-08 17:06:13,060 [INFO] from application in application-akka.actor.default-dispatcher-13 - ApplicationTimer demo: Starting application at 2016-06-08T15:06:13.060Z
 2016-06-08 17:06:13,107 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-13 - Application started (Dev)
+2016-06-08 18:10:28,218 [INFO] from application in application-akka.actor.default-dispatcher-4 - ApplicationTimer demo: Stopping application at 2016-06-08T16:10:28.218Z after 3855s.
+2016-06-08 18:10:28,296 [INFO] from application in application-akka.actor.default-dispatcher-4 - ApplicationTimer demo: Starting application at 2016-06-08T16:10:28.296Z
+2016-06-08 18:10:28,343 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2016-06-08 18:13:41,069 [INFO] from application in application-akka.actor.default-dispatcher-20 - ApplicationTimer demo: Stopping application at 2016-06-08T16:13:41.069Z after 193s.
+2016-06-08 18:13:41,147 [INFO] from application in application-akka.actor.default-dispatcher-20 - ApplicationTimer demo: Starting application at 2016-06-08T16:13:41.147Z
+2016-06-08 18:13:41,194 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-20 - Application started (Dev)
