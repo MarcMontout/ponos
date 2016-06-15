@@ -4,8 +4,6 @@ import javax.inject.*;
 import play.*;
 import play.mvc.*;
 
-import services.Counter;
-
 /**
  * This controller demonstrates how to use dependency injection to
  * bind a component into a controller class. The class contains an
@@ -15,11 +13,10 @@ import services.Counter;
 @Singleton
 public class Qcm extends Controller {
 
-    private final Counter counter;
-
+    
     @Inject
-    public Qcm(Counter counter) {
-       this.counter = counter;
+    public Qcm() {
+       
     }
 
     /**
@@ -29,7 +26,7 @@ public class Qcm extends Controller {
      * requests by an entry in the <code>routes</code> config file.
      */
     public Result afficheqcm() {
-        return ok(Integer.toString(counter.nextCount()));
+        return ok(views.html.sentrainer.render("Entrainer"));
     }
 
 }
