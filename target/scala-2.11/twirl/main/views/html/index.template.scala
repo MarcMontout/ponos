@@ -65,7 +65,7 @@ Seq[Any](format.raw/*1.19*/("""
 </div>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/jquery.vide.min.js"></script>
+    <script src=""""),_display_(/*37.19*/routes/*37.25*/.Assets.at("javascript/jquery.vide.min.js")),format.raw/*37.68*/(""""></script>
 
 <!--banner bottom-->
 <div class="about">
@@ -257,11 +257,11 @@ Seq[Any](format.raw/*1.19*/("""
 				</div>
 			</div>
 			<ul id="myTab" class="nav nav-tabs text-center" role="tablist">
-			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src="images/team1.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src="images/team2.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src="images/team3.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src="images/team4.jpg" alt=" " /></a></li>
-                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src="images/team5.jpg" alt=" " /></a></li>
+			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src=""""),_display_(/*229.159*/routes/*229.165*/.Assets.at("images/team.jpg")),format.raw/*229.194*/(""""  alt=" " /></a></li>
+				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src=""""),_display_(/*230.129*/routes/*230.135*/.Assets.at("images/team2.jpg")),format.raw/*230.165*/("""" alt=" " /></a></li>
+				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src=""""),_display_(/*231.126*/routes/*231.132*/.Assets.at("images/team3.jpg")),format.raw/*231.162*/(""""  alt=" " /></a></li>
+				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src=""""),_display_(/*232.123*/routes/*232.129*/.Assets.at("images/team4.jpg")),format.raw/*232.159*/(""""  alt=" " /></a></li>
+                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src=""""),_display_(/*233.135*/routes/*233.141*/.Assets.at("images/team5.jpg")),format.raw/*233.171*/(""""  alt=" " /></a></li>
 				<div class="clearfix"></div>
 			</ul>
 		</div>
@@ -291,11 +291,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Thu Jun 16 21:18:43 CEST 2016
+                  DATE: Fri Jun 17 01:04:18 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: 32d7d310c1e3f785936e6da9ec4029ae080a26bd
-                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1089->127|1104->133|1158->166|1950->931|1965->937|2006->957|11245->10165
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|60->29|60->29|60->29|273->242
+                  HASH: 1130a8ce111be55b04cffe60fd23ea1034eef942
+                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1089->127|1104->133|1158->166|1950->931|1965->937|2006->957|2318->1242|2333->1248|2397->1291|10534->9399|10551->9405|10603->9434|10784->9586|10801->9592|10854->9622|11031->9770|11048->9776|11101->9806|11276->9952|11293->9958|11346->9988|11533->10146|11550->10152|11603->10182|11754->10302
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|60->29|60->29|60->29|68->37|68->37|68->37|260->229|260->229|260->229|261->230|261->230|261->230|262->231|262->231|262->231|263->232|263->232|263->232|264->233|264->233|264->233|273->242
                   -- GENERATED --
               */
           

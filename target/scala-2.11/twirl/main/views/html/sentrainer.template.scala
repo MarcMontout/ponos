@@ -276,7 +276,7 @@ Seq[Any](format.raw/*1.19*/("""
 	       <div class="personBox wow fadeInLeft animated" data-wow-delay=".5s">
               <div class="personBox_1">
                  <div class="person_image">
-                      <img src="images/team1.jpg" class="img-responsive" alt=""/> 
+                      <img src=""""),_display_(/*248.34*/routes/*248.40*/.Assets.at("images/team.jpg")),format.raw/*248.69*/("""" class="img-responsive" alt=""/> 
                  </div>
                  <div class="person_image_desc">
                    <h6>Le mot du prof</h6>
@@ -320,11 +320,11 @@ Seq[Any](format.raw/*1.19*/("""
 object sentrainer extends sentrainer_Scope0.sentrainer
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 15 21:28:21 CEST 2016
+                  DATE: Fri Jun 17 00:59:25 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/sentrainer.scala.html
-                  HASH: e4dd97ad0045583bcd3249929990bbd628ce761e
-                  MATRIX: 755->1|867->18|897->23|924->42|963->44|998->53|10036->9060
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|302->271
+                  HASH: e7be972951354d384e9310dbed4beb189d98c680
+                  MATRIX: 755->1|867->18|897->23|924->42|963->44|998->53|9246->8273|9262->8279|9313->8308|10116->9080
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|279->248|279->248|279->248|302->271
                   -- GENERATED --
               */
           

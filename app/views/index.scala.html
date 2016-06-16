@@ -34,7 +34,7 @@
 </div>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/jquery.vide.min.js"></script>
+    <script src="@routes.Assets.at("javascript/jquery.vide.min.js")"></script>
 
 <!--banner bottom-->
 <div class="about">
@@ -226,11 +226,11 @@
 				</div>
 			</div>
 			<ul id="myTab" class="nav nav-tabs text-center" role="tablist">
-			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src="images/team1.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src="images/team2.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src="images/team3.jpg" alt=" " /></a></li>
-				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src="images/team4.jpg" alt=" " /></a></li>
-                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src="images/team5.jpg" alt=" " /></a></li>
+			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src="@routes.Assets.at("images/team.jpg")"  alt=" " /></a></li>
+				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src="@routes.Assets.at("images/team2.jpg")" alt=" " /></a></li>
+				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src="@routes.Assets.at("images/team3.jpg")"  alt=" " /></a></li>
+				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src="@routes.Assets.at("images/team4.jpg")"  alt=" " /></a></li>
+                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src="@routes.Assets.at("images/team5.jpg")"  alt=" " /></a></li>
 				<div class="clearfix"></div>
 			</ul>
 		</div>

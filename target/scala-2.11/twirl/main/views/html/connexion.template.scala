@@ -57,13 +57,17 @@ Seq[Any](format.raw/*1.19*/("""
 	            <input type="checkbox" value="remember-me"> Remember me
 	          </label>
 	        </div>
+
+	        <a href="https://moncompte.isep.fr/login.php">Mot de passe oublié</a><br>
 	        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
 	      </form>
+
 	</div>
 
 </body>
 </html>
-""")))}),format.raw/*35.2*/("""
+""")))}),format.raw/*39.2*/("""
 """))
       }
     }
@@ -84,11 +88,11 @@ Seq[Any](format.raw/*1.19*/("""
 object connexion extends connexion_Scope0.connexion
               /*
                   -- GENERATED --
-                  DATE: Thu Jun 16 21:00:32 CEST 2016
+                  DATE: Fri Jun 17 00:56:33 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/connexion.scala.html
-                  HASH: 87a9535fa852afd3c71da7d7a4dc4e84c5498b6e
-                  MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1092->122|1107->128|1163->163|2047->1017
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|66->35
+                  HASH: e650d3caa224707fc7cc78d91bff7e1a3c3b6bc8
+                  MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1092->122|1107->128|1163->163|2137->1107
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|70->39
                   -- GENERATED --
               */
           
