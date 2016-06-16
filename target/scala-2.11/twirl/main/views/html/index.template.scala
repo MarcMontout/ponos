@@ -44,9 +44,7 @@ Seq[Any](format.raw/*1.19*/("""
 		<div class="ban-shade">
 			<div class="header-nav">
 				<div class="logo wow fadeInUp animated" data-wow-delay=".5s">
-					<h1>
-						<a class="link link--kumya" href="index.html"><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
-					</h1>
+					
 				</div>
 				<div class="clearfix"></div>
 				
@@ -59,7 +57,7 @@ Seq[Any](format.raw/*1.19*/("""
 					<h3>Bienvenue sur PONOS ISEP la plateforme d'entraînement de l'ISEP école du numérique</h3>
 					<h2>Commencer à vous entraîner, connectez-vous !</h2>
 					
-					<a class="scroll" href="#" class="hvr-shutter-in-vertical button" data-toggle="modal" data-target="#myModal">Connexion</a>
+					<a class="scroll" href=""""),_display_(/*29.31*/routes/*29.37*/.Application.login()),format.raw/*29.57*/("""" class="hvr-shutter-in-vertical button" data-toggle="modal" data-target="#myModal">Connexion</a>
 				</div>
 			</div>
 		</div>
@@ -272,7 +270,7 @@ Seq[Any](format.raw/*1.19*/("""
 </body>
 </html>
     
-""")))}),format.raw/*244.2*/("""
+""")))}),format.raw/*242.2*/("""
 """))
       }
     }
@@ -293,11 +291,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 15 21:29:48 CEST 2016
+                  DATE: Thu Jun 16 21:18:43 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: 41f70b7f038d76ab0929987bb6a154164ed8eebc
-                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1089->127|1104->133|1158->166|11292->10269
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|275->244
+                  HASH: 32d7d310c1e3f785936e6da9ec4029ae080a26bd
+                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1089->127|1104->133|1158->166|1950->931|1965->937|2006->957|11245->10165
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|60->29|60->29|60->29|273->242
                   -- GENERATED --
               */
           

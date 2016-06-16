@@ -2,10 +2,17 @@ body {
     background-color: #eee;
 }
 
+.div-connexion{
+
+height : 500px;
+
+}
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
+  margin-top: 100px;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {

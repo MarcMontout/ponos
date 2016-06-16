@@ -44,14 +44,14 @@ Seq[Any](format.raw/*1.19*/("""
 
 <body>
 
-	<div class="container">
+	<div class="div-connexion">
     
 	    <form class="form-signin">
-	        <h2 class="form-signin-heading">Please sign in</h2>
+	        <h2 class="form-signin-heading">Connectez-vous</h2>
 	        <label for="inputEmail" class="sr-only">Email address</label>
-	        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+	        <input type="text" id="inputEmail" class="form-control" placeholder="Identifiant" required autofocus>
 	        <label for="inputPassword" class="sr-only">Password</label>
-	        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+	        <input type="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
 	        <div class="checkbox">
 	          <label>
 	            <input type="checkbox" value="remember-me"> Remember me
@@ -84,10 +84,10 @@ Seq[Any](format.raw/*1.19*/("""
 object connexion extends connexion_Scope0.connexion
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 15 21:50:00 CEST 2016
+                  DATE: Thu Jun 16 21:00:32 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/connexion.scala.html
-                  HASH: a048969ec3ecc4239de6123b1c1340f715f41f3f
-                  MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1092->122|1107->128|1163->163|2042->1012
+                  HASH: 87a9535fa852afd3c71da7d7a4dc4e84c5498b6e
+                  MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1092->122|1107->128|1163->163|2047->1017
                   LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|66->35
                   -- GENERATED --
               */

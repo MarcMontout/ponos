@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.19*/("""
 </head>
 
 <body>
-    
+    <div class="container"></div>
 </body>
 </html>
     
@@ -65,10 +65,10 @@ Seq[Any](format.raw/*1.19*/("""
 object monespace extends monespace_Scope0.monespace
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 15 21:31:12 CEST 2016
+                  DATE: Thu Jun 16 21:19:38 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/monespace.scala.html
-                  HASH: d44b5f2553132c64030a05e1b87feb568a995f15
-                  MATRIX: 753->1|865->18|895->23|921->41|960->43|991->48|1137->164
+                  HASH: fe885bcd4daddd0f27fc3f2cebfb10962af20edb
+                  MATRIX: 753->1|865->18|895->23|921->41|960->43|991->48|1166->193
                   LINES: 27->1|32->1|34->3|34->3|34->3|36->5|47->16
                   -- GENERATED --
               */
