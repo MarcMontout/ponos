@@ -36,9 +36,24 @@ public class Application extends Controller {
         return ok(views.html.connexion.render("Connexion"));
     }
 
-     public Result question() {
-        return ok(views.html.question.render("Question"));
+    public Result question1() {
+        return ok(views.html.questions.q1.render("Question"));
     }
 
+    public Result question2() {
+        return ok(views.html.questions.q2.render("Question2"));
+    }
+
+    public Result question3() {
+        return ok(views.html.questions.q3.render("Question3"));
+    }
+
+    public Result question4() {
+        return ok(views.html.questions.q4.render("Question4"));
+    }
+
+    public Result question5() {
+        return ok(views.html.questions.q5.render("Question5"));
+    }
 
 }

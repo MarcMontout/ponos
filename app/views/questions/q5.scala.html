@@ -1,0 +1,65 @@
+@(message: String)
+
+@main("Question5") {
+	
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<script type="text/javascript" src="@routes.Assets.at("javascripts/qcm.js")"></script>
+
+
+</head>
+<body>
+<form>
+
+<div class="container" style="margin: 40px">
+	<p>
+	<h2> Répondez à ce QCM sans tricher ! Plusieurs réponses sont possibles </h2><br>
+	</p>
+	<div>
+		<b><i>Quelles sont les tâches à remplir avant que deux routeurs puissent utiliser le protocole OSPF pour établir une contigu</i></b><br>
+		<input type="checkbox" />  Les routeurs doivent sélectionner un routeur désigné <br>
+		<input type="checkbox" />   Les routeurs doivent s’accorder sur le type de réseau <br>
+		<input type="checkbox" />  Les routeurs doivent utiliser le même intervalle des paquets Dead  <br>
+		<input type="checkbox" /> Les routeurs doivent échanger des demandes d’état des liaisons <br>
+		<input type="checkbox" />  Les routeurs doivent échanger des paquets de description de base de données <br><br>
+
+		<i> <b>Quelles affirmations sont vraies à propos des protocoles de routage à état de liens ? </b> </i> <br>
+		<input type="checkbox" /> Ils connaissent l’intégralité de la topologie de réseau <br>
+		<input type="checkbox" /> Ils garantissent des délais de convergence rapides sur les grands réseaux <br>
+		<input type="checkbox" /> Ils n’incluent pas les masques de sous-réseaux dans leurs mises à jour de routage <br>
+		<input type="checkbox" /> Ils comptent sur la diminution du nombre de sauts pour déterminer le meilleur chemin <br>
+		<input type="checkbox" /> Ils ne fonctionnent pas bien sur les réseaux qui nécessitent des conceptions hiérarchiques spéciales <br><br>
+
+		<i><b>Que signifie l'acronyme DNS ?</b></i> <br>
+		<input type="checkbox" /> Domain Name System <br>
+		<input type="checkbox" /> Domain Name Server <br>
+		<input type="checkbox" /> Data Name Server <br><br>
+
+		<i> <b>Qu'est ce qu'un SWITCH ?</b> </i><br>
+		<input type="checkbox" /> Un concentrateur <br>
+		<input type="checkbox" /> Un commutateur <br>
+		<input type="checkbox" /> Un modulateur <br>
+		<input type="checkbox" /> Un calculateur <br><br>
+
+	</div>
+	<div>
+		<form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		  	<input type=button class="btn btn-info" value="Valider" onclick="qcm(0,'01100110001000100')"/>
+			<input type="text" name="t" size="20" ></input>
+			<input type="reset" class="btn btn-danger" value="Annuler" />
+			<input type="button" class="btn btn-success" onclick="solution(0,'01100110001000100')" value="Solution" />
+		  </div>
+		</form>
+	</div>
+</div>
+
+</form>
+</body>
+</html>
+    
+}
+
+

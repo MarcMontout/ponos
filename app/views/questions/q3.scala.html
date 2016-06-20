@@ -1,0 +1,65 @@
+@(message: String)
+
+@main("Question3") {
+	
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<script type="text/javascript" src="@routes.Assets.at("javascripts/qcm.js")"></script>
+
+
+</head>
+<body>
+<form>
+
+<div class="container" style="margin: 40px">
+	<p>
+	<h2> Répondez à ce QCM sans tricher ! Plusieurs réponses sont possibles </h2><br>
+	</p>
+	<div>
+		<b><i>8*7 = : </i></b><br>
+		<input type="checkbox" /> 62 <br>
+		<input type="checkbox" /> 56 <br>
+		<input type="checkbox" /> 43 <br>
+		<input type="checkbox" /> Pas de réponse <br><br>
+
+		<i> <b></b>2x+5= 0 équivalent à </i> <br>
+		<input type="checkbox" /> 2x= -5 <br>
+		<input type="checkbox" /> 2x= 5 <br>
+		<input type="checkbox" /> 2+x= -5 <br>
+		<input type="checkbox" /> x+5= 2 <br><br>
+
+		<i><b>(8*7+9)(4-(3+1))= </b> </i> <br>
+		<input type="checkbox" /> 2 <br>
+		<input type="checkbox" /> 1 <br>
+		<input type="checkbox" /> 0 <br>
+		<input type="checkbox" /> 90 <br><br>
+
+		<i> <b></b>7x+5= 0 équivalent à </i> <br>
+		<input type="checkbox" /> 7x= -4 <br>
+		<input type="checkbox" /> 7x= 6 <br>
+		<input type="checkbox" /> 7x+x= -5 <br>
+		<input type="checkbox" /> x+5= 7x <br>
+		<input type="checkbox" /> Pas de réponse <br><br>
+
+	</div>
+	<div>
+		<form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		  	<input type=button class="btn btn-info" value="Valider" onclick="qcm(0,'01001000001000001')"/>
+			<input type="text" name="t" size="20" ></input>
+			<input type="reset" class="btn btn-danger" value="Annuler" />
+			<input type="button" class="btn btn-success" onclick="solution(0,'01001000001000001')" value="Solution" />
+		  </div>
+		</form>
+	</div>
+</div>
+
+</form>
+</body>
+</html>
+    
+}
+
+

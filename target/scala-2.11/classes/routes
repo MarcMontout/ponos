@@ -21,7 +21,14 @@ GET		/espaceprof					controllers.Application.espaceprof()
 
 GET		/login						controllers.Application.login()
 
-GET		/question					controllers.Application.question()
+GET		/q1							controllers.Application.question1()
 
+GET		/q2							controllers.Application.question2()
+
+GET		/q3							controllers.Application.question3()
+
+GET		/q4							controllers.Application.question4()
+
+GET		/q5							controllers.Application.question5()
 
 

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Mon Jun 20 16:23:41 CEST 2016
+// @DATE:Mon Jun 20 20:46:06 CEST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -83,6 +83,26 @@ package controllers.javascript {
     }
 
   
+    // @LINE:24
+    def question1: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.question1",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "q1"})
+        }
+      """
+    )
+  
+    // @LINE:28
+    def question3: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.question3",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "q3"})
+        }
+      """
+    )
+  
     // @LINE:16
     def monespace: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.monespace",
@@ -93,12 +113,32 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:24
-    def question: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.question",
+    // @LINE:26
+    def question2: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.question2",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "question"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "q2"})
+        }
+      """
+    )
+  
+    // @LINE:30
+    def question4: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.question4",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "q4"})
+        }
+      """
+    )
+  
+    // @LINE:32
+    def question5: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.question5",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "q5"})
         }
       """
     )

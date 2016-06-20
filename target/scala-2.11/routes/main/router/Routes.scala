@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Mon Jun 20 16:23:41 CEST 2016
+// @DATE:Mon Jun 20 20:46:06 CEST 2016
 
 package router
 
@@ -59,7 +59,11 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """entrainer""", """controllers.Application.entrainer()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """espaceprof""", """controllers.Application.espaceprof()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """login""", """controllers.Application.login()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """question""", """controllers.Application.question()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """q1""", """controllers.Application.question1()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """q2""", """controllers.Application.question2()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """q3""", """controllers.Application.question3()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """q4""", """controllers.Application.question4()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """q5""", """controllers.Application.question5()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -204,19 +208,87 @@ class Routes(
   )
 
   // @LINE:24
-  private[this] lazy val controllers_Application_question8_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("question")))
+  private[this] lazy val controllers_Application_question18_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("q1")))
   )
-  private[this] lazy val controllers_Application_question8_invoker = createInvoker(
-    Application_2.question(),
+  private[this] lazy val controllers_Application_question18_invoker = createInvoker(
+    Application_2.question1(),
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.Application",
-      "question",
+      "question1",
       Nil,
       "GET",
       """""",
-      this.prefix + """question"""
+      this.prefix + """q1"""
+    )
+  )
+
+  // @LINE:26
+  private[this] lazy val controllers_Application_question29_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("q2")))
+  )
+  private[this] lazy val controllers_Application_question29_invoker = createInvoker(
+    Application_2.question2(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "question2",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """q2"""
+    )
+  )
+
+  // @LINE:28
+  private[this] lazy val controllers_Application_question310_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("q3")))
+  )
+  private[this] lazy val controllers_Application_question310_invoker = createInvoker(
+    Application_2.question3(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "question3",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """q3"""
+    )
+  )
+
+  // @LINE:30
+  private[this] lazy val controllers_Application_question411_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("q4")))
+  )
+  private[this] lazy val controllers_Application_question411_invoker = createInvoker(
+    Application_2.question4(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "question4",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """q4"""
+    )
+  )
+
+  // @LINE:32
+  private[this] lazy val controllers_Application_question512_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("q5")))
+  )
+  private[this] lazy val controllers_Application_question512_invoker = createInvoker(
+    Application_2.question5(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "question5",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """q5"""
     )
   )
 
@@ -272,9 +344,33 @@ class Routes(
       }
   
     // @LINE:24
-    case controllers_Application_question8_route(params) =>
+    case controllers_Application_question18_route(params) =>
       call { 
-        controllers_Application_question8_invoker.call(Application_2.question())
+        controllers_Application_question18_invoker.call(Application_2.question1())
+      }
+  
+    // @LINE:26
+    case controllers_Application_question29_route(params) =>
+      call { 
+        controllers_Application_question29_invoker.call(Application_2.question2())
+      }
+  
+    // @LINE:28
+    case controllers_Application_question310_route(params) =>
+      call { 
+        controllers_Application_question310_invoker.call(Application_2.question3())
+      }
+  
+    // @LINE:30
+    case controllers_Application_question411_route(params) =>
+      call { 
+        controllers_Application_question411_invoker.call(Application_2.question4())
+      }
+  
+    // @LINE:32
+    case controllers_Application_question512_route(params) =>
+      call { 
+        controllers_Application_question512_invoker.call(Application_2.question5())
       }
   }
 }

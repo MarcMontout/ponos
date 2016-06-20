@@ -1,0 +1,64 @@
+@(message: String)
+
+@main("Question4") {
+	
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<script type="text/javascript" src="@routes.Assets.at("javascripts/qcm.js")"></script>
+
+
+</head>
+<body>
+<form>
+
+<div class="container" style="margin: 40px">
+	<p>
+	<h2> Répondez à ce QCM sans tricher ! Plusieurs réponses sont possibles </h2><br>
+	</p>
+	<div>
+		<b><i>Quelle couche OSI gère les segments de données ? </i></b><br>
+		<input type="checkbox" /> Application <br>
+		<input type="checkbox" /> Présentation <br>
+		<input type="checkbox" /> Session <br>
+		<input type="checkbox" /> transport <br><br>
+
+		<i> <b>Quel type de renseignement l'en-tête de la couche 4 contient-il pour contribuer au transfert des données ?</b> </i> <br>
+		<input type="checkbox" /> Numéro de port du service <br>
+		<input type="checkbox" /> Adresse logique de l'hôte <br>
+		<input type="checkbox" /> Adresse physique du périphérique <br>
+		<input type="checkbox" /> Identifiant de la connexion virtuelle <br><br>
+
+		<i><b>Quelle couche OSI offre des services de communication de données orientées connexion et faibles ?</b> </i> <br>
+		<input type="checkbox" /> Application <br>
+		<input type="checkbox" /> Présentation <br>
+		<input type="checkbox" /> Session <br>
+		<input type="checkbox" /> transport <br><br>
+
+		<i> <b> Quelles sont les fonctions principales d’un routeur</b> </i><br>
+		<input type="checkbox" /> La commutation de paquets <br>
+		<input type="checkbox" /> La microsegmentation <br>
+		<input type="checkbox" />  La résolution de noms de domaine <br>
+		<input type="checkbox" />  Le choix des chemins <br><br>
+
+	</div>
+	<div>
+		<form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		  	<input type=button class="btn btn-info" value="Valider" onclick="qcm(0,'0001100000011001')"/>
+			<input type="text" name="t" size="20" ></input>
+			<input type="reset" class="btn btn-danger" value="Annuler" />
+			<input type="button" class="btn btn-success" onclick="solution(0,'0001100000011001')" value="Solution" />
+		  </div>
+		</form>
+	</div>
+</div>
+
+</form>
+</body>
+</html>
+    
+}
+
+
