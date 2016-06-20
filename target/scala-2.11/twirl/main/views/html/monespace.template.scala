@@ -67,7 +67,7 @@ Seq[Any](format.raw/*1.19*/("""
 object monespace extends monespace_Scope0.monespace
               /*
                   -- GENERATED --
-                  DATE: Mon Jun 20 16:17:08 CEST 2016
+                  DATE: Mon Jun 20 23:49:23 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/monespace.scala.html
                   HASH: 1eb8c0ae271bd3ad321e2c1d857319900970752c
                   MATRIX: 753->1|865->18|895->23|921->41|960->43|991->48|1179->206

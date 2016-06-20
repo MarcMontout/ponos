@@ -36,9 +36,7 @@ Seq[Any](format.raw/*1.19*/("""
 """),format.raw/*5.1*/("""<!DOCTYPE html>
 <html>
 <head></head>
-
-<script type="text/javascript" src=""""),_display_(/*9.38*/routes/*9.44*/.Assets.at("javascripts/qcm.js")),format.raw/*9.76*/(""""></script>
-
+<script type="text/javascript" src=""""),_display_(/*8.38*/routes/*8.44*/.Assets.at("javascripts/qcm.js")),format.raw/*8.76*/(""""></script>
 
 </head>
 <body>
@@ -114,7 +112,7 @@ Seq[Any](format.raw/*1.19*/("""
 </body>
 </html>
     
-""")))}),format.raw/*86.2*/("""
+""")))}),format.raw/*84.2*/("""
 
 
 """))
@@ -137,11 +135,11 @@ Seq[Any](format.raw/*1.19*/("""
 object q2 extends q2_Scope0.q2
               /*
                   -- GENERATED --
-                  DATE: Mon Jun 20 22:18:19 CEST 2016
+                  DATE: Mon Jun 20 23:49:23 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/questions/q2.scala.html
-                  HASH: 78476d4c545803e4a3451a7e4668efc064badc05
-                  MATRIX: 749->1|861->18|891->23|916->40|955->42|986->47|1091->126|1105->132|1157->164|4498->3475
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|40->9|40->9|40->9|117->86
+                  HASH: 694375380f05a4381d3fbc761d53c954fb2322fb
+                  MATRIX: 749->1|861->18|891->23|916->40|955->42|986->47|1089->124|1103->130|1155->162|4494->3471
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|39->8|39->8|39->8|115->84
                   -- GENERATED --
               */
           
