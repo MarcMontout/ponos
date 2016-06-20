@@ -1,0 +1,59 @@
+@(message: String)
+
+@main("Question") {
+	
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<script type="text/javascript" src="@routes.Assets.at("javascript/qcm.js")"></script>
+
+
+</head>
+<body>
+<form>
+
+<div class="container" style="margin: 40px">
+	<p>
+	<b> Répondez à ce QCM sans tricher ! Plusieurs réponses sont possibles </b>
+	</p>
+	<div>
+		<b><i>8*7 = : </i></b><br>
+		<input type="checkbox" /> 62 <br>
+		<input type="checkbox" /> 56 <br>
+		<input type="checkbox" /> 43 <br>
+		<i> <b>Un langage de programmation:</b> </i> <br>
+		<input type="checkbox" /> Java <br>
+		<input type="checkbox" /> HTML <br>
+		<input type="checkbox"/> C++ <br>
+
+		<i><b>(8*7+9)(4-(3+1)= </b> </i> <br>
+		<input type="checkbox" /> 2 <br>
+		<input type="checkbox"/> 1<br>
+		<input type="checkbox" /> 0<br>
+
+		<i> <b>Un Système d'exploitation : </b> </i><br>
+		<input type="checkbox" /> Windows <br>
+		<input type="checkbox" /> Apple <br>
+		<input type="checkbox" /> Linux <br>
+
+	</div>
+	<div>
+		<form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		  	<input type=button class="btn btn-info" value="Valider" onclick="qcm(0,'010101001111')"/>
+			<input type="text" name="t" size="20" ></input>
+			<input type="reset" class="btn btn-danger" value="Annuler" />
+			<input type="button" class="btn btn-success" onclick="solution(0,'010101001111')" value="Solution" />
+		  </div>
+		</form>
+	</div>
+</div>
+
+</form>
+</body>
+</html>
+    
+}
+
+

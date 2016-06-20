@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Wed Jun 08 18:42:54 CEST 2016
+// @DATE:Mon Jun 20 16:23:41 CEST 2016
 
 package controllers;
 

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Wed Jun 08 18:42:54 CEST 2016
+// @DATE:Mon Jun 20 16:23:41 CEST 2016
 
 package router
 
@@ -59,6 +59,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """entrainer""", """controllers.Application.entrainer()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """espaceprof""", """controllers.Application.espaceprof()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """login""", """controllers.Application.login()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """question""", """controllers.Application.question()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -202,6 +203,23 @@ class Routes(
     )
   )
 
+  // @LINE:24
+  private[this] lazy val controllers_Application_question8_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("question")))
+  )
+  private[this] lazy val controllers_Application_question8_invoker = createInvoker(
+    Application_2.question(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "question",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """question"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -251,6 +269,12 @@ class Routes(
     case controllers_Application_login7_route(params) =>
       call { 
         controllers_Application_login7_invoker.call(Application_2.login())
+      }
+  
+    // @LINE:24
+    case controllers_Application_question8_route(params) =>
+      call { 
+        controllers_Application_question8_invoker.call(Application_2.question())
       }
   }
 }

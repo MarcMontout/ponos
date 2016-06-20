@@ -36,4 +36,9 @@ public class Application extends Controller {
         return ok(views.html.connexion.render("Connexion"));
     }
 
+     public Result question() {
+        return ok(views.html.question.render("Question"));
+    }
+
+
 }
