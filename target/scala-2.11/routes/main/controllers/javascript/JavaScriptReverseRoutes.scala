@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Mon Jun 20 20:46:06 CEST 2016
+// @DATE:Tue Jun 21 00:28:59 CEST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -83,7 +83,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:24
+    // @LINE:26
     def question1: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.question1",
       """
@@ -93,7 +93,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:28
+    // @LINE:30
     def question3: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.question3",
       """
@@ -113,7 +113,17 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:26
+    // @LINE:18
+    def ancienqcm: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.ancienqcm",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "ancienqcm"})
+        }
+      """
+    )
+  
+    // @LINE:28
     def question2: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.question2",
       """
@@ -123,7 +133,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:30
+    // @LINE:32
     def question4: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.question4",
       """
@@ -133,7 +143,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:32
+    // @LINE:34
     def question5: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.question5",
       """
@@ -143,7 +153,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:20
+    // @LINE:22
     def espaceprof: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.espaceprof",
       """
@@ -163,7 +173,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:18
+    // @LINE:20
     def entrainer: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.entrainer",
       """
@@ -173,7 +183,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:22
+    // @LINE:24
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.login",
       """

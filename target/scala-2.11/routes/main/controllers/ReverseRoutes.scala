@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Hassan/Desktop/ponos/conf/routes
-// @DATE:Mon Jun 20 20:46:06 CEST 2016
+// @DATE:Tue Jun 21 00:28:59 CEST 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -65,13 +65,13 @@ package controllers {
     }
 
   
-    // @LINE:24
+    // @LINE:26
     def question1(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "q1")
     }
   
-    // @LINE:28
+    // @LINE:30
     def question3(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "q3")
@@ -83,25 +83,31 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "monespace")
     }
   
-    // @LINE:26
+    // @LINE:18
+    def ancienqcm(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "ancienqcm")
+    }
+  
+    // @LINE:28
     def question2(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "q2")
     }
   
-    // @LINE:30
+    // @LINE:32
     def question4(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "q4")
     }
   
-    // @LINE:32
+    // @LINE:34
     def question5(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "q5")
     }
   
-    // @LINE:20
+    // @LINE:22
     def espaceprof(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "espaceprof")
@@ -113,13 +119,13 @@ package controllers {
       Call("GET", _prefix)
     }
   
-    // @LINE:18
+    // @LINE:20
     def entrainer(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "entrainer")
     }
   
-    // @LINE:22
+    // @LINE:24
     def login(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "login")

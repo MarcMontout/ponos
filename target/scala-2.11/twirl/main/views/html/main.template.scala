@@ -37,48 +37,47 @@ class main extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format
 Seq[Any](format.raw/*7.32*/("""
 
 """),format.raw/*9.1*/("""<!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
-<title>Ponos ISEP</title>
+        
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:title" content="Vide" />
 <meta name="keywords" content="Eduma Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() """),format.raw/*20.78*/("""{"""),format.raw/*20.79*/(""" """),format.raw/*20.80*/("""setTimeout(hideURLbar, 0); """),format.raw/*20.107*/("""}"""),format.raw/*20.108*/(""", false);
-function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" """),format.raw/*21.24*/("""window.scrollTo(0,1); """),format.raw/*21.46*/("""}"""),format.raw/*21.47*/(""" """),format.raw/*21.48*/("""</script>
+<script type="application/x-javascript"> addEventListener("load", function() """),format.raw/*19.78*/("""{"""),format.raw/*19.79*/(""" """),format.raw/*19.80*/("""setTimeout(hideURLbar, 0); """),format.raw/*19.107*/("""}"""),format.raw/*19.108*/(""", false);
+function hideURLbar()"""),format.raw/*20.22*/("""{"""),format.raw/*20.23*/(""" """),format.raw/*20.24*/("""window.scrollTo(0,1); """),format.raw/*20.46*/("""}"""),format.raw/*20.47*/(""" """),format.raw/*20.48*/("""</script>
 <!-- //for-mobile-apps -->
-<link href=""""),_display_(/*23.14*/routes/*23.20*/.Assets.at("Stylesheets/bootstrap.css")),format.raw/*23.59*/("""" rel='stylesheet' type='text/css' />
+<link href=""""),_display_(/*22.14*/routes/*22.20*/.Assets.at("Stylesheets/bootstrap.css")),format.raw/*22.59*/("""" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link href=""""),_display_(/*25.14*/routes/*25.20*/.Assets.at("Stylesheets/nav.css")),format.raw/*25.53*/("""" rel="stylesheet" type="text/css" media="all"/>
-<link href=""""),_display_(/*26.14*/routes/*26.20*/.Assets.at("Stylesheets/hoverpack.css")),format.raw/*26.59*/("""" rel='stylesheet' type='text/css' />
-<link href=""""),_display_(/*27.14*/routes/*27.20*/.Assets.at("Stylesheets/style.css")),format.raw/*27.55*/("""" rel='stylesheet' type='text/css' />
+<link href=""""),_display_(/*24.14*/routes/*24.20*/.Assets.at("Stylesheets/nav.css")),format.raw/*24.53*/("""" rel="stylesheet" type="text/css" media="all"/>
+<link href=""""),_display_(/*25.14*/routes/*25.20*/.Assets.at("Stylesheets/hoverpack.css")),format.raw/*25.59*/("""" rel='stylesheet' type='text/css' />
+<link href=""""),_display_(/*26.14*/routes/*26.20*/.Assets.at("Stylesheets/style.css")),format.raw/*26.55*/("""" rel='stylesheet' type='text/css' />
 <!-- js -->
-   <script src=""""),_display_(/*29.18*/routes/*29.24*/.Assets.at("javascripts/jquery-1.11.1.min.js")),format.raw/*29.70*/(""""></script>
+   <script src=""""),_display_(/*28.18*/routes/*28.24*/.Assets.at("javascripts/jquery-1.11.1.min.js")),format.raw/*28.70*/(""""></script>
 <!-- //js -->
 <!-- dropdown -->
-<script src=""""),_display_(/*32.15*/routes/*32.21*/.Assets.at("javascripts/hoverpack.js")),format.raw/*32.59*/(""""></script>
+<script src=""""),_display_(/*31.15*/routes/*31.21*/.Assets.at("javascripts/hoverpack.js")),format.raw/*31.59*/(""""></script>
 <!-- //dropdown -->
 <!--webfont-->
 <link href='//fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src=""""),_display_(/*38.38*/routes/*38.44*/.Assets.at("javascripts/move-top.js")),format.raw/*38.81*/(""""></script>
-<script type="text/javascript" src=""""),_display_(/*39.38*/routes/*39.44*/.Assets.at("javascripts/easing.js")),format.raw/*39.79*/(""""></script>
+<script type="text/javascript" src=""""),_display_(/*37.38*/routes/*37.44*/.Assets.at("javascripts/move-top.js")),format.raw/*37.81*/(""""></script>
+<script type="text/javascript" src=""""),_display_(/*38.38*/routes/*38.44*/.Assets.at("javascripts/easing.js")),format.raw/*38.79*/(""""></script>
 <script type="text/javascript">
-    jQuery(document).ready(function($) """),format.raw/*41.40*/("""{"""),format.raw/*41.41*/("""
-        """),format.raw/*42.9*/("""$(".scroll").click(function(event)"""),format.raw/*42.43*/("""{"""),format.raw/*42.44*/("""     
-            """),format.raw/*43.13*/("""event.preventDefault();
-            $('html,body').animate("""),format.raw/*44.36*/("""{"""),format.raw/*44.37*/("""scrollTop:$(this.hash).offset().top"""),format.raw/*44.72*/("""}"""),format.raw/*44.73*/(""",1000);
-        """),format.raw/*45.9*/("""}"""),format.raw/*45.10*/(""");
-    """),format.raw/*46.5*/("""}"""),format.raw/*46.6*/(""");
+    jQuery(document).ready(function($) """),format.raw/*40.40*/("""{"""),format.raw/*40.41*/("""
+        """),format.raw/*41.9*/("""$(".scroll").click(function(event)"""),format.raw/*41.43*/("""{"""),format.raw/*41.44*/("""     
+            """),format.raw/*42.13*/("""event.preventDefault();
+            $('html,body').animate("""),format.raw/*43.36*/("""{"""),format.raw/*43.37*/("""scrollTop:$(this.hash).offset().top"""),format.raw/*43.72*/("""}"""),format.raw/*43.73*/(""",1000);
+        """),format.raw/*44.9*/("""}"""),format.raw/*44.10*/(""");
+    """),format.raw/*45.5*/("""}"""),format.raw/*45.6*/(""");
 </script>
 <!-- start-smoth-scrolling -->
 <!--animate-->
-<link href= """"),_display_(/*50.15*/routes/*50.21*/.Assets.at("Stylesheets/animate.css")),format.raw/*50.58*/("""" rel="stylesheet" type="text/css" media="all">
-<script src=""""),_display_(/*51.15*/routes/*51.21*/.Assets.at("javascripts/wow.min.js")),format.raw/*51.57*/(""""></script>
+<link href= """"),_display_(/*49.15*/routes/*49.21*/.Assets.at("Stylesheets/animate.css")),format.raw/*49.58*/("""" rel="stylesheet" type="text/css" media="all">
+<script src=""""),_display_(/*50.15*/routes/*50.21*/.Assets.at("javascripts/wow.min.js")),format.raw/*50.57*/(""""></script>
     <script>
          new WOW().init();
     </script>
@@ -93,7 +92,7 @@ function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" "
             <div class="header-nav">
                 <div class="logo wow fadeInUp animated" data-wow-delay=".5s">
                     <h1>
-                        <a class="link link--kumya" href=""""),_display_(/*66.60*/routes/*66.66*/.Application.index()),format.raw/*66.86*/(""""><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
+                        <a class="link link--kumya" href=""""),_display_(/*65.60*/routes/*65.66*/.Application.index()),format.raw/*65.86*/(""""><i></i><span data-letters="PONOS-ISEP">PONOS ISEP</span></a>
                     </h1>
                 </div>
                 <div class="top-nav wow fadeInUp animated" data-wow-delay=".5s">                                        
@@ -102,22 +101,22 @@ function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" "
                         </label>
                         <input id="mobile_menu" type="checkbox">
                         <ul class="nav">
-                         <li><a class="active" href=""""),_display_(/*75.55*/routes/*75.61*/.Application.index()),format.raw/*75.81*/("""">Accueil</a></li>
-                         <li><a href=""""),_display_(/*76.40*/routes/*76.46*/.Application.monespace()),format.raw/*76.70*/("""">Mon Espace</a></li>
-                         <li><a href=""""),_display_(/*77.40*/routes/*77.46*/.Application.entrainer()),format.raw/*77.70*/("""">S'entraîner</a></li>
+                         <li><a class="active" href=""""),_display_(/*74.55*/routes/*74.61*/.Application.index()),format.raw/*74.81*/("""">Accueil</a></li>
+                         <li><a href=""""),_display_(/*75.40*/routes/*75.46*/.Application.monespace()),format.raw/*75.70*/("""">Mon Espace</a></li>
+                         <li><a href=""""),_display_(/*76.40*/routes/*76.46*/.Application.entrainer()),format.raw/*76.70*/("""">S'entraîner</a></li>
                          <li><a href="http://educ.isep.fr">Moodle</a></li>
                          <li><a href="http://www.isep.fr/parcours/">Parcours</a></li>
-                         <li class="rectangle"><a href=""""),_display_(/*80.58*/routes/*80.64*/.Application.login()),format.raw/*80.84*/("""">Se connecter</a></li>
+                         <li class="rectangle"><a href=""""),_display_(/*79.58*/routes/*79.64*/.Application.login()),format.raw/*79.84*/("""">Se connecter</a></li>
                       </ul>
                  </div>
                 <div class="clearfix"></div>
             </div>
     </div>
 
-        """),format.raw/*88.32*/("""
-        """),_display_(/*89.10*/content),format.raw/*89.17*/("""
+        """),format.raw/*87.32*/("""
+        """),_display_(/*88.10*/content),format.raw/*88.17*/("""
 
-"""),format.raw/*91.1*/("""</body>
+"""),format.raw/*90.1*/("""</body>
 
 <div class="footer">
     <div class="container">
@@ -128,11 +127,11 @@ function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" "
         <div class="col-md-2 footer-grid wow fadeInRight animated" data-wow-delay=".5s">
             <h3>Navigation</h3>
             <ul>
-                <li><a class="active" href=""""),_display_(/*102.46*/routes/*102.52*/.Application.index()),format.raw/*102.72*/("""">Accueil</a></li>
-                <li><a href=""""),_display_(/*103.31*/routes/*103.37*/.Application.monespace()),format.raw/*103.61*/("""">Mon Espace</a></li>
-                <li><a href=""""),_display_(/*104.31*/routes/*104.37*/.Application.entrainer()),format.raw/*104.61*/("""">S'entraîner</a></li>
+                <li><a class="active" href=""""),_display_(/*101.46*/routes/*101.52*/.Application.index()),format.raw/*101.72*/("""">Accueil</a></li>
+                <li><a href=""""),_display_(/*102.31*/routes/*102.37*/.Application.monespace()),format.raw/*102.61*/("""">Mon Espace</a></li>
+                <li><a href=""""),_display_(/*103.31*/routes/*103.37*/.Application.entrainer()),format.raw/*103.61*/("""">S'entraîner</a></li>
                 <li><a href="http://educ.isep.fr">Moodle</a></li>
-                <li><a href=""""),_display_(/*106.31*/routes/*106.37*/.Application.espaceprof()),format.raw/*106.62*/("""">Espace professeur</a></li>                        
+                <li><a href=""""),_display_(/*105.31*/routes/*105.37*/.Application.espaceprof()),format.raw/*105.62*/("""">Espace professeur</a></li>                        
             </ul>
         </div>
         <div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay=".5s">
@@ -163,22 +162,22 @@ function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" "
 
 <!-- smooth scrolling -->
     <script type="text/javascript">
-        $(document).ready(function() """),format.raw/*137.38*/("""{"""),format.raw/*137.39*/("""
-        """),format.raw/*138.9*/("""/*
-            var defaults = """),format.raw/*139.28*/("""{"""),format.raw/*139.29*/("""
-            """),format.raw/*140.13*/("""containerID: 'toTop', // fading element id
+        $(document).ready(function() """),format.raw/*136.38*/("""{"""),format.raw/*136.39*/("""
+        """),format.raw/*137.9*/("""/*
+            var defaults = """),format.raw/*138.28*/("""{"""),format.raw/*138.29*/("""
+            """),format.raw/*139.13*/("""containerID: 'toTop', // fading element id
             containerHoverID: 'toTopHover', // fading element hover id
             scrollSpeed: 1200,
             easingType: 'linear' 
-            """),format.raw/*144.13*/("""}"""),format.raw/*144.14*/(""";
+            """),format.raw/*143.13*/("""}"""),format.raw/*143.14*/(""";
         */                              
-        $().UItoTop("""),format.raw/*146.21*/("""{"""),format.raw/*146.22*/(""" """),format.raw/*146.23*/("""easingType: 'easeOutQuart' """),format.raw/*146.50*/("""}"""),format.raw/*146.51*/(""");
-        """),format.raw/*147.9*/("""}"""),format.raw/*147.10*/(""");
+        $().UItoTop("""),format.raw/*145.21*/("""{"""),format.raw/*145.22*/(""" """),format.raw/*145.23*/("""easingType: 'easeOutQuart' """),format.raw/*145.50*/("""}"""),format.raw/*145.51*/(""");
+        """),format.raw/*146.9*/("""}"""),format.raw/*146.10*/(""");
     </script>
     <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
-        <script src=""""),_display_(/*152.23*/routes/*152.29*/.Assets.at("javascripts/bootstrap.js")),format.raw/*152.67*/(""""></script>
+        <script src=""""),_display_(/*151.23*/routes/*151.29*/.Assets.at("javascripts/bootstrap.js")),format.raw/*151.67*/(""""></script>
 
 </html>
 """))
@@ -206,11 +205,11 @@ function hideURLbar()"""),format.raw/*21.22*/("""{"""),format.raw/*21.23*/(""" "
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Mon Jun 20 23:49:23 CEST 2016
+                  DATE: Tue Jun 21 00:28:59 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/main.scala.html
-                  HASH: 01dd9a21a399055a6ed6aa907e25d76ccb7e5104
-                  MATRIX: 1002->260|1127->290|1155->292|1794->903|1823->904|1852->905|1908->932|1938->933|1997->964|2026->965|2055->966|2105->988|2134->989|2163->990|2240->1040|2255->1046|2315->1085|2421->1164|2436->1170|2490->1203|2579->1265|2594->1271|2654->1310|2732->1361|2747->1367|2803->1402|2897->1469|2912->1475|2979->1521|3064->1579|3079->1585|3138->1623|3541->1999|3556->2005|3614->2042|3690->2091|3705->2097|3761->2132|3872->2215|3901->2216|3937->2225|3999->2259|4028->2260|4074->2278|4161->2337|4190->2338|4253->2373|4282->2374|4325->2390|4354->2391|4388->2398|4416->2399|4516->2472|4531->2478|4589->2515|4678->2577|4693->2583|4750->2619|5110->2952|5125->2958|5166->2978|5731->3516|5746->3522|5787->3542|5872->3600|5887->3606|5932->3630|6020->3691|6035->3697|6080->3721|6348->3962|6363->3968|6404->3988|6592->4238|6629->4248|6657->4255|6686->4257|7193->4736|7209->4742|7251->4762|7328->4811|7344->4817|7390->4841|7470->4893|7486->4899|7532->4923|7679->5042|7695->5048|7742->5073|8998->6300|9028->6301|9065->6310|9124->6340|9154->6341|9196->6354|9416->6545|9446->6546|9538->6609|9568->6610|9598->6611|9654->6638|9684->6639|9723->6650|9753->6651|9986->6856|10002->6862|10062->6900
-                  LINES: 32->7|37->7|39->9|50->20|50->20|50->20|50->20|50->20|51->21|51->21|51->21|51->21|51->21|51->21|53->23|53->23|53->23|55->25|55->25|55->25|56->26|56->26|56->26|57->27|57->27|57->27|59->29|59->29|59->29|62->32|62->32|62->32|68->38|68->38|68->38|69->39|69->39|69->39|71->41|71->41|72->42|72->42|72->42|73->43|74->44|74->44|74->44|74->44|75->45|75->45|76->46|76->46|80->50|80->50|80->50|81->51|81->51|81->51|96->66|96->66|96->66|105->75|105->75|105->75|106->76|106->76|106->76|107->77|107->77|107->77|110->80|110->80|110->80|117->88|118->89|118->89|120->91|131->102|131->102|131->102|132->103|132->103|132->103|133->104|133->104|133->104|135->106|135->106|135->106|166->137|166->137|167->138|168->139|168->139|169->140|173->144|173->144|175->146|175->146|175->146|175->146|175->146|176->147|176->147|181->152|181->152|181->152
+                  HASH: 9bc085fcce61c11cdab38dbbf31d223ea403e84c
+                  MATRIX: 1002->260|1127->290|1155->292|1766->875|1795->876|1824->877|1880->904|1910->905|1969->936|1998->937|2027->938|2077->960|2106->961|2135->962|2212->1012|2227->1018|2287->1057|2393->1136|2408->1142|2462->1175|2551->1237|2566->1243|2626->1282|2704->1333|2719->1339|2775->1374|2869->1441|2884->1447|2951->1493|3036->1551|3051->1557|3110->1595|3513->1971|3528->1977|3586->2014|3662->2063|3677->2069|3733->2104|3844->2187|3873->2188|3909->2197|3971->2231|4000->2232|4046->2250|4133->2309|4162->2310|4225->2345|4254->2346|4297->2362|4326->2363|4360->2370|4388->2371|4488->2444|4503->2450|4561->2487|4650->2549|4665->2555|4722->2591|5082->2924|5097->2930|5138->2950|5703->3488|5718->3494|5759->3514|5844->3572|5859->3578|5904->3602|5992->3663|6007->3669|6052->3693|6320->3934|6335->3940|6376->3960|6564->4210|6601->4220|6629->4227|6658->4229|7165->4708|7181->4714|7223->4734|7300->4783|7316->4789|7362->4813|7442->4865|7458->4871|7504->4895|7651->5014|7667->5020|7714->5045|8970->6272|9000->6273|9037->6282|9096->6312|9126->6313|9168->6326|9388->6517|9418->6518|9510->6581|9540->6582|9570->6583|9626->6610|9656->6611|9695->6622|9725->6623|9958->6828|9974->6834|10034->6872
+                  LINES: 32->7|37->7|39->9|49->19|49->19|49->19|49->19|49->19|50->20|50->20|50->20|50->20|50->20|50->20|52->22|52->22|52->22|54->24|54->24|54->24|55->25|55->25|55->25|56->26|56->26|56->26|58->28|58->28|58->28|61->31|61->31|61->31|67->37|67->37|67->37|68->38|68->38|68->38|70->40|70->40|71->41|71->41|71->41|72->42|73->43|73->43|73->43|73->43|74->44|74->44|75->45|75->45|79->49|79->49|79->49|80->50|80->50|80->50|95->65|95->65|95->65|104->74|104->74|104->74|105->75|105->75|105->75|106->76|106->76|106->76|109->79|109->79|109->79|116->87|117->88|117->88|119->90|130->101|130->101|130->101|131->102|131->102|131->102|132->103|132->103|132->103|134->105|134->105|134->105|165->136|165->136|166->137|167->138|167->138|168->139|172->143|172->143|174->145|174->145|174->145|174->145|174->145|175->146|175->146|180->151|180->151|180->151
                   -- GENERATED --
               */
           

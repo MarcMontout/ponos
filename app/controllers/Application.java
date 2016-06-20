@@ -24,6 +24,10 @@ public class Application extends Controller {
         return ok(views.html.monespace.render("Mon espace"));
     }
 
+    public Result ancienqcm() {
+        return ok(views.html.ancienqcm.render("Mes anciens QCM"));
+    }
+
     public Result espaceprof() {
         return ok(views.html.espaceprof.render("Espace professeur"));
     }

@@ -35,10 +35,12 @@ Seq[Any](format.raw/*1.19*/("""
 	
 """),format.raw/*5.1*/("""<!DOCTYPE html>
 <html>
-<head></head>
+<head>
+	<title>Ponos ISEP</title>
+</head>
 <body>
 
-<div style="background-image:url("""),_display_(/*10.35*/routes/*10.41*/.Assets.at("images/training.jpg")),format.raw/*10.74*/(""")">
+<div style="background-image:url("""),_display_(/*12.35*/routes/*12.41*/.Assets.at("images/training.jpg")),format.raw/*12.74*/(""")">
  <!--<div data-vide-bg="video/training">-->
     <div class="center-container">
 		<div class="ban-shade">
@@ -55,7 +57,7 @@ Seq[Any](format.raw/*1.19*/("""
 					<h3>Bienvenue sur PONOS ISEP la plateforme d'entraînement de l'ISEP école du numérique</h3>
 					<h2>Commencer à vous entraîner, connectez-vous !</h2>
 					
-					<a class="scroll" href=""""),_display_(/*27.31*/routes/*27.37*/.Application.login()),format.raw/*27.57*/("""" class="hvr-shutter-in-vertical button" data-toggle="modal" data-target="#myModal">Connexion</a>
+					<a class="scroll" href=""""),_display_(/*29.31*/routes/*29.37*/.Application.login()),format.raw/*29.57*/("""" class="hvr-shutter-in-vertical button" data-toggle="modal" data-target="#myModal">Connexion</a>
 				</div>
 			</div>
 		</div>
@@ -63,7 +65,7 @@ Seq[Any](format.raw/*1.19*/("""
 </div>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src=""""),_display_(/*35.19*/routes/*35.25*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*35.69*/(""""></script>
+    <script src=""""),_display_(/*37.19*/routes/*37.25*/.Assets.at("javascripts/jquery.vide.min.js")),format.raw/*37.69*/(""""></script>
 
 <!--banner bottom-->
 <div class="about">
@@ -255,11 +257,11 @@ Seq[Any](format.raw/*1.19*/("""
 				</div>
 			</div>
 			<ul id="myTab" class="nav nav-tabs text-center" role="tablist">
-			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src=""""),_display_(/*227.159*/routes/*227.165*/.Assets.at("images/team.jpg")),format.raw/*227.194*/(""""  alt=" " /></a></li>
-				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src=""""),_display_(/*228.129*/routes/*228.135*/.Assets.at("images/team2.jpg")),format.raw/*228.165*/("""" alt=" " /></a></li>
-				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src=""""),_display_(/*229.126*/routes/*229.132*/.Assets.at("images/team3.jpg")),format.raw/*229.162*/(""""  alt=" " /></a></li>
-				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src=""""),_display_(/*230.123*/routes/*230.129*/.Assets.at("images/team4.jpg")),format.raw/*230.159*/(""""  alt=" " /></a></li>
-                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src=""""),_display_(/*231.135*/routes/*231.141*/.Assets.at("images/team5.jpg")),format.raw/*231.171*/(""""  alt=" " /></a></li>
+			    <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src=""""),_display_(/*229.159*/routes/*229.165*/.Assets.at("images/team.jpg")),format.raw/*229.194*/(""""  alt=" " /></a></li>
+				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"><img src=""""),_display_(/*230.129*/routes/*230.135*/.Assets.at("images/team2.jpg")),format.raw/*230.165*/("""" alt=" " /></a></li>
+				<li role="presentation"><a href="#return" role="tab" id="return-tab" data-toggle="tab" aria-controls="return"><img src=""""),_display_(/*231.126*/routes/*231.132*/.Assets.at("images/team3.jpg")),format.raw/*231.162*/(""""  alt=" " /></a></li>
+				<li role="presentation"><a href="#team4" role="tab" id="team4-tab" data-toggle="tab" aria-controls="team4"><img src=""""),_display_(/*232.123*/routes/*232.129*/.Assets.at("images/team4.jpg")),format.raw/*232.159*/(""""  alt=" " /></a></li>
+                <li role="presentation"><a href="#team5" role="tab" id="team5-tab" data-toggle="tab" aria-controls="team5"><img src=""""),_display_(/*233.135*/routes/*233.141*/.Assets.at("images/team5.jpg")),format.raw/*233.171*/(""""  alt=" " /></a></li>
 				<div class="clearfix"></div>
 			</ul>
 		</div>
@@ -268,7 +270,7 @@ Seq[Any](format.raw/*1.19*/("""
 </body>
 </html>
     
-""")))}),format.raw/*240.2*/("""
+""")))}),format.raw/*242.2*/("""
 """))
       }
     }
@@ -289,11 +291,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Mon Jun 20 23:49:23 CEST 2016
+                  DATE: Tue Jun 21 00:28:59 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/index.scala.html
-                  HASH: e2b90dcc34838db12d25f785b98820819f71e8f7
-                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1089->127|1104->133|1158->166|1870->851|1885->857|1926->877|2238->1162|2253->1168|2318->1212|10448->9313|10465->9319|10517->9348|10698->9500|10715->9506|10768->9536|10945->9684|10962->9690|11015->9720|11190->9866|11207->9872|11260->9902|11447->10060|11464->10066|11517->10096|11668->10216
-                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|41->10|41->10|41->10|58->27|58->27|58->27|66->35|66->35|66->35|258->227|258->227|258->227|259->228|259->228|259->228|260->229|260->229|260->229|261->230|261->230|261->230|262->231|262->231|262->231|271->240
+                  HASH: 85d56ca2ad36c4bd7ac8207a079a8c828afacea0
+                  MATRIX: 745->1|857->18|887->23|908->36|947->38|978->43|1119->157|1134->163|1188->196|1900->881|1915->887|1956->907|2268->1192|2283->1198|2348->1242|10478->9343|10495->9349|10547->9378|10728->9530|10745->9536|10798->9566|10975->9714|10992->9720|11045->9750|11220->9896|11237->9902|11290->9932|11477->10090|11494->10096|11547->10126|11698->10246
+                  LINES: 27->1|32->1|34->3|34->3|34->3|36->5|43->12|43->12|43->12|60->29|60->29|60->29|68->37|68->37|68->37|260->229|260->229|260->229|261->230|261->230|261->230|262->231|262->231|262->231|263->232|263->232|263->232|264->233|264->233|264->233|273->242
                   -- GENERATED --
               */
           
