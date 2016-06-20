@@ -32,7 +32,7 @@ class sentrainer extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,
 Seq[Any](format.raw/*1.19*/("""
 
 """),_display_(/*3.2*/main("S'entrainer")/*3.21*/ {_display_(Seq[Any](format.raw/*3.23*/("""
-	
+    
     """),format.raw/*5.5*/("""<!DOCTYPE html>
 <html>
 <head>
@@ -41,186 +41,186 @@ Seq[Any](format.raw/*1.19*/("""
 
 <body>
 <!-- courses -->
-	<div class="courses_box1">
-	   <div class="container">
-		<h3 class="tittle">Les QCM d'entraînement</h3>
-	   	  
-		<div class="col-md-9 wow fadeInUp animated" data-wow-delay=".5s">
-			<div class="course_list">
+    <div class="courses_box1">
+       <div class="container">
+        <h3 class="tittle">Les QCM d'entraînement</h3>
+          
+        <div class="col-md-9 wow fadeInUp animated" data-wow-delay=".5s">
+            <div class="course_list">
                 <div class="table-header clearfix">
-                	<div class="id_col">ID</div>
-                	<div class="name_col">Nom du cours</div>
+                    <div class="id_col">ID</div>
+                    <div class="name_col">Nom du cours</div>
                     <div class="duration_col">Durée</div>
                     <div class="date_col">Date de début</div>
-    			</div>
+                </div>
                 <ul class="table-list">
                     <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    				 <li class="clearfix">
-    					<div class="id_col">(II:2405)</div>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                     <li class="clearfix">
+                        <div class="id_col">(II:2405)</div>
 
-        				<div class="name_col"><a href="#">Génie Logiciel</a></div>
+                        <div class="name_col"><a href="#">Génie Logiciel</a></div>
 
-        				<div class="duration_col">2 heures</div>
+                        <div class="duration_col">2 heures</div>
 
-        				<div class="date_col">25/05/2016</div>
-    				</li>
-    			</ul>
+                        <div class="date_col">25/05/2016</div>
+                    </li>
+                </ul>
                </div>
-		</div>
-		<div class="col-md-3">
-			<div class="courses_box1-left wow fadeInLeft animated" data-wow-delay=".5s">
+        </div>
+        <div class="col-md-3">
+            <div class="courses_box1-left wow fadeInLeft animated" data-wow-delay=".5s">
                 <form>
                  <div class="select-block1">
                     <select>
@@ -259,21 +259,21 @@ Seq[Any](format.raw/*1.19*/("""
                         <option value="">25/05/2016</option>
                     </select>
                 </div>
-				<!-- select-block -->
-				<div class="select-block1">
-					<select>
-						<option value="">Promotion</option>
-						<option value="">Promotion</option>
-						<option value="">Promotion</option>
-						<option value="">Promotion</option>
-						<option value="">Promotion</option>
-					</select>
-				</div>
                 <!-- select-block -->
-                <input type="submit" value="search" class="course-submit">		                            
+                <div class="select-block1">
+                    <select>
+                        <option value="">Promotion</option>
+                        <option value="">Promotion</option>
+                        <option value="">Promotion</option>
+                        <option value="">Promotion</option>
+                        <option value="">Promotion</option>
+                    </select>
+                </div>
+                <!-- select-block -->
+                <input type="submit" value="search" class="course-submit">                                  
             </form>
-	       </div>
-	       <div class="personBox wow fadeInLeft animated" data-wow-delay=".5s">
+           </div>
+           <div class="personBox wow fadeInLeft animated" data-wow-delay=".5s">
               <div class="personBox_1">
                  <div class="person_image">
                       <img src=""""),_display_(/*248.34*/routes/*248.40*/.Assets.at("images/team.jpg")),format.raw/*248.69*/("""" class="img-responsive" alt=""/> 
@@ -291,10 +291,10 @@ Seq[Any](format.raw/*1.19*/("""
                 </p>
              </div>
           </div>
-		</div>	
-		<div class="clearfix"> </div>
-	   </div>
-	</div>
+        </div>  
+        <div class="clearfix"> </div>
+       </div>
+    </div>
 <!-- courses -->
 </body>
 </html>
@@ -320,10 +320,10 @@ Seq[Any](format.raw/*1.19*/("""
 object sentrainer extends sentrainer_Scope0.sentrainer
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 17 00:59:25 CEST 2016
+                  DATE: Mon Jun 20 18:48:48 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/sentrainer.scala.html
-                  HASH: e7be972951354d384e9310dbed4beb189d98c680
-                  MATRIX: 755->1|867->18|897->23|924->42|963->44|998->53|9246->8273|9262->8279|9313->8308|10116->9080
+                  HASH: ee6d1d803104d6fd79d8d05ae754e6e2d2cd1e49
+                  MATRIX: 755->1|867->18|897->23|924->42|963->44|1001->56|10828->9855|10844->9861|10895->9890|11717->10681
                   LINES: 27->1|32->1|34->3|34->3|34->3|36->5|279->248|279->248|279->248|302->271
                   -- GENERATED --
               */

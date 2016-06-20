@@ -88,7 +88,7 @@ Seq[Any](format.raw/*1.19*/("""
 object connexion extends connexion_Scope0.connexion
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 17 00:56:33 CEST 2016
+                  DATE: Mon Jun 20 18:48:48 CEST 2016
                   SOURCE: C:/Users/Hassan/Desktop/ponos/app/views/connexion.scala.html
                   HASH: e650d3caa224707fc7cc78d91bff7e1a3c3b6bc8
                   MATRIX: 753->1|865->18|895->23|920->40|959->42|989->46|1092->122|1107->128|1163->163|2137->1107

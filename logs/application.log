@@ -340,3 +340,4 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[Expected '}' but
 2016-06-20 18:11:41,656 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-11 - Application started (Dev)
 2016-06-20 18:13:10,103 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
 2016-06-20 18:15:40,821 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2016-06-20 18:48:53,128 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-15 - Application started (Dev)
